@@ -28,7 +28,7 @@ if (isset($_POST['generar'])) {
         </script>';
     } elseif (strlen($descripcion) > 6000) {
         echo'<script type="text/javascript">
-        alert("el campo descipcion tiene mas de 2000 caracteres");
+        alert("el campo descipcion tiene mas de 6000 caracteres");
         </script>';
     }else{
         
