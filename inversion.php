@@ -96,7 +96,7 @@
 
         <div class="row">
           <div class="col-lg-7 order-2 order-lg-1" data-aos="fade-right">
-            <iframe style="border:0; width: 100%; height: 260px;" src="https://www.google.com/maps/d/embed?mid=14p132VvlbGwRIC2yn9XGR-XblwR7-S8x&z=7" frameborder="0"></iframe>
+            <iframe style="border:0; width: 100%; height: 260px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.5640303091363!2d-73.87179452579737!3d7.060401016693028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e42ec9ece69ff4b%3A0x2ca0559bff546a62!2sCra.%208%20%236-19%2C%20Barrancabermeja%2C%20Santander!5e0!3m2!1ses!2sco!4v1691699376415!5m2!1ses!2sco" frameborder="0"></iframe>
           </div>
           <div class="col-lg-5 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>1. UBICACIÓN GEOGRÁFICA ESTRATÉGICA</h3>

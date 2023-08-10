@@ -16,7 +16,7 @@ if (isset($_POST['editargenerar'])) {
 
     if (empty($fecha) || empty($autor) || empty($titulo) || empty($imagen) || empty($descripcion) || empty($clase)) {
         echo'<script type="text/javascript">
-        alert("todos los acmpos deben ser llenados");
+        alert("todos los campos deben ser llenados");
         </script>';
     } elseif (strlen($autor) > 100) {
         echo'<script type="text/javascript">
@@ -35,7 +35,8 @@ if (isset($_POST['editargenerar'])) {
             //mkdir('imagen_noticias', 0777, true);
             $ruta = 'imagen_noticias/' . $imagen;
             move_uploaded_file($temporal,$ruta);
-            mysqli_query($con," UPDATE noticias SET id_noticia='$codigo',fecha_noticia='$fecha',autor_noticia='$autor',titulo_noticia='$titulo',clasificacion = '$clase',img_noticia='$ruta',descripcion_noticia='$descripcion' WHERE  id_noticia = $codigo");
+            mysqli_query($con," UPDATE noticias SET id_noticia='$codigo',fecha_noticia='$fecha',autor_noticia='$autor',
+            titulo_noticia='$titulo',clasificacion = '$clase',img_noticia='$ruta',descripcion_noticia='$descripcion' WHERE  id_noticia = $codigo");
             echo'<script type="text/javascript">
             alert("NOTICIA ACTUALIZADA DE MANERA EXITOSA");
             window.location.href="../verNoticias.php";
