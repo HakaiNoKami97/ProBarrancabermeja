@@ -1,0 +1,97 @@
+.portada {
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.titulo {
+    position: absolute;
+    transition: all 0.3s;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.1) 15%, rgba(0, 0, 0, 1));
+    text-align: left;
+}
+
+.titulo a {
+    position: relative;
+    top: 45%;
+    color: #fff !important;
+    text-decoration: none;
+    text-decoration-color: none;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, serif;
+    font-weight: 300px;
+    font-size: 1rem;
+    font-size: 19px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 640px) {
+    .titulo a {
+        position: relative;
+        top: 45%;
+        font-size: 19px;
+    }
+}
+
+.titulo a:hover {
+    color: #f4f4e7 !important;
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
+.titulo:hover {
+    text-decoration: none;
+    background: linear-gradient(rgba(0, 0, 0, 0.2) 15%, rgba(0, 0, 0, 0.4));
+}
+
+#box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white !important;
+    font-family: "Raleway";
+    font-size: 1.4rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gradient-border {
+    --borderWidth: 3px;
+    background: #1d1f20;
+    position: relative;
+    border-radius: var(--borderWidth);
+}
+
+.gradient-border:after {
+    content: "";
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+}
+
+@keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

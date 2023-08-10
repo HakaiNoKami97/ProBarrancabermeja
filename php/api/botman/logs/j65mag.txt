@@ -1,0 +1,4 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2023-03-08 11:18] Probarrancabermeja : ¡Hola! Soy un Bot, Bienvenido a RVO
+[2023-03-08 11:18] Cliente : Hola
+[2023-03-08 11:18] Probarrancabermeja : ¿En que estas interesado/a?

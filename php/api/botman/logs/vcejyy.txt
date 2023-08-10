@@ -1,0 +1,11 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2023-04-27 15:37] Probarrancabermeja : ¡Hola! Soy un Bot, Bienvenido a RVO
+[2023-04-27 15:37] Cliente : hola buen dia
+[2023-04-27 15:37] Probarrancabermeja : ¿En que estas interesado/a?
+[2023-04-27 15:37] Cliente : me gustaria averiguar sobre una vacante
+[2023-04-27 15:37] Probarrancabermeja : Será un placer asistirte, ¿Cuál es tu nombre?
+[2023-04-27 15:37] Cliente : Juan blanco
+[2023-04-27 15:37] Probarrancabermeja : Hola Juan blanco, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2023-04-27 15:37] Probarrancabermeja : ¿Podrías dejarme tu teléfono?
+[2023-04-27 15:38] Cliente : no, puedo llamar yo?
+[2023-04-27 15:38] Probarrancabermeja : Necesitaría un teléfono valido para que podamos contactarte. Digita de nuevo el teléfono

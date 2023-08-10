@@ -1,0 +1,15 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2023-03-08 11:19] Probarrancabermeja : ¡Hola! Soy un Bot, Bienvenido a RVO
+[2023-03-08 11:19] Cliente : Hola
+[2023-03-08 11:19] Probarrancabermeja : ¿En que estas interesado/a?
+[2023-03-08 11:19] Cliente : Jugar
+[2023-03-08 11:19] Probarrancabermeja : Será un placer asistirte, ¿Cuál es tu nombre?
+[2023-03-08 11:19] Cliente : Juan mendoza
+[2023-03-08 11:19] Probarrancabermeja : Hola Juan mendoza, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2023-03-08 11:19] Probarrancabermeja : ¿Podrías dejarme tu teléfono?
+[2023-03-08 11:20] Cliente : 3209060336
+[2023-03-08 11:20] Probarrancabermeja : ¿Podrías dejarme tu email?
+[2023-03-08 11:20] Cliente : jdmoviedo@hotmail.com
+[2023-03-08 11:20] Probarrancabermeja : ¿Quieres dejarme alguna consulta adicional?
+[2023-03-08 11:20] Cliente : Es solo una prueba del bot en mi pc
+[2023-03-08 11:20] Probarrancabermeja : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

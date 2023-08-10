@@ -1,0 +1,738 @@
+rvoips.backup@gmail.com: 
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP f21sm1411202vke.39 - gsmtp
+
+1: CLIENT -> SERVER: EHLO www.laboratoriorvo.com
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [192.95.42.10]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO www.laboratoriorvo.com
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [192.95.42.10]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+1: CLIENT -> SERVER: MAIL FROM:<rvoips.backup@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.0 OK f21sm1411202vke.39 - gsmtp
+
+1: CLIENT -> SERVER: RCPT TO:<jdmo0802@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.5 OK f21sm1411202vke.39 - gsmtp
+
+1: CLIENT -> SERVER: RCPT TO:<jaime@laboratoriorvo.com>
+
+2: SERVER -> CLIENT: 250 2.1.5 OK f21sm1411202vke.39 - gsmtp
+
+1: CLIENT -> SERVER: RCPT TO:<solicitudes@rvo.com.co>
+
+2: SERVER -> CLIENT: 250 2.1.5 OK f21sm1411202vke.39 - gsmtp
+
+1: CLIENT -> SERVER: DATA
+
+2: SERVER -> CLIENT: 550 5.4.5 Daily user sending quota exceeded. f21sm1411202vke.39 - gsmtp
+
+1: SMTP ERROR: DATA command failed: 550 5.4.5 Daily user sending quota exceeded. f21sm1411202vke.39 - gsmtp
+
+2: SMTP Error: data not accepted.
+
+rvoips.backup@gmail.com: 
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP w4sm9328764ilq.56 - gsmtp
+
+1: CLIENT -> SERVER: EHLO www.laboratoriorvo.com
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [192.95.42.10]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO www.laboratoriorvo.com
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [192.95.42.10]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+1: CLIENT -> SERVER: MAIL FROM:<rvoips.backup@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.0 OK w4sm9328764ilq.56 - gsmtp
+
+1: CLIENT -> SERVER: RCPT TO:<jdmo0802@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.5 OK w4sm9328764ilq.56 - gsmtp
+
+1: CLIENT -> SERVER: RCPT TO:<jaime@laboratoriorvo.com>
+
+2: SERVER -> CLIENT: 250 2.1.5 OK w4sm9328764ilq.56 - gsmtp
+
+1: CLIENT -> SERVER: RCPT TO:<solicitudes@rvo.com.co>
+
+2: SERVER -> CLIENT: 250 2.1.5 OK w4sm9328764ilq.56 - gsmtp
+
+1: CLIENT -> SERVER: RCPT TO:<rvoips.ednagamboa@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.5 OK w4sm9328764ilq.56 - gsmtp
+
+1: CLIENT -> SERVER: DATA
+
+2: SERVER -> CLIENT: 550 5.4.5 Daily user sending quota exceeded. w4sm9328764ilq.56 - gsmtp
+
+1: SMTP ERROR: DATA command failed: 550 5.4.5 Daily user sending quota exceeded. w4sm9328764ilq.56 - gsmtp
+
+2: SMTP Error: data not accepted.
+
+rvoips.backup@gmail.com: 
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP l7sm9662376ilv.75 - gsmtp
+
+1: CLIENT -> SERVER: EHLO www.laboratoriorvo.com
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [192.95.42.10]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO www.laboratoriorvo.com
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [192.95.42.10]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+1: CLIENT -> SERVER: MAIL FROM:<rvoips.backup@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.0 OK l7sm9662376ilv.75 - gsmtp
+
+1: CLIENT -> SERVER: RCPT TO:<jdmo0802@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.5 OK l7sm9662376ilv.75 - gsmtp
+
+1: CLIENT -> SERVER: RCPT TO:<jaime@laboratoriorvo.com>
+
+2: SERVER -> CLIENT: 250 2.1.5 OK l7sm9662376ilv.75 - gsmtp
+
+1: CLIENT -> SERVER: RCPT TO:<solicitudes@rvo.com.co>
+
+2: SERVER -> CLIENT: 250 2.1.5 OK l7sm9662376ilv.75 - gsmtp
+
+1: CLIENT -> SERVER: RCPT TO:<rvoips.ednagamboa@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.5 OK l7sm9662376ilv.75 - gsmtp
+
+1: CLIENT -> SERVER: DATA
+
+2: SERVER -> CLIENT: 550 5.4.5 Daily user sending quota exceeded. l7sm9662376ilv.75 - gsmtp
+
+1: SMTP ERROR: DATA command failed: 550 5.4.5 Daily user sending quota exceeded. l7sm9662376ilv.75 - gsmtp
+
+2: SMTP Error: data not accepted.
+
+rvoips.backup@gmail.com: 
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP b2-20020a923402000000b002c25b16552fsm2872081ila.14 - gsmtp
+
+1: CLIENT -> SERVER: EHLO www.laboratoriorvo.com
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [192.95.42.10]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO www.laboratoriorvo.com
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [192.95.42.10]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+1: CLIENT -> SERVER: MAIL FROM:<rvoips.backup@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.0 OK b2-20020a923402000000b002c25b16552fsm2872081ila.14 - gsmtp
+
+1: CLIENT -> SERVER: RCPT TO:<jdmo0802@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.5 OK b2-20020a923402000000b002c25b16552fsm2872081ila.14 - gsmtp
+
+1: CLIENT -> SERVER: RCPT TO:<jaime@laboratoriorvo.com>
+
+2: SERVER -> CLIENT: 250 2.1.5 OK b2-20020a923402000000b002c25b16552fsm2872081ila.14 - gsmtp
+
+1: CLIENT -> SERVER: RCPT TO:<solicitudes@rvo.com.co>
+
+2: SERVER -> CLIENT: 250 2.1.5 OK b2-20020a923402000000b002c25b16552fsm2872081ila.14 - gsmtp
+
+1: CLIENT -> SERVER: RCPT TO:<rvoips.ednagamboa@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.5 OK b2-20020a923402000000b002c25b16552fsm2872081ila.14 - gsmtp
+
+1: CLIENT -> SERVER: RCPT TO:<info@rvo.com.co>
+
+2: SERVER -> CLIENT: 250 2.1.5 OK b2-20020a923402000000b002c25b16552fsm2872081ila.14 - gsmtp
+
+1: CLIENT -> SERVER: DATA
+
+2: SERVER -> CLIENT: 550 5.4.5 Daily user sending quota exceeded. b2-20020a923402000000b002c25b16552fsm2872081ila.14 - gsmtp
+
+1: SMTP ERROR: DATA command failed: 550 5.4.5 Daily user sending quota exceeded. b2-20020a923402000000b002c25b16552fsm2872081ila.14 - gsmtp
+
+2: SMTP Error: data not accepted.
+
+probarrancabermeja.comunica100@gmail.com: 
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP n14-20020a9f3ece000000b0035d20c94b68sm382609uaj.29 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [186.147.31.252]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [186.147.31.252]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n14-20020a9f3ece000000b0035d20c94b68sm382609uaj.29 - gsmtp
+
+1: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n14-20020a9f3ece000000b0035d20c94b68sm382609uaj.29 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection n14-20020a9f3ece000000b0035d20c94b68sm382609uaj.29 - gsmtp
+
+2: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+
+probarrancabermeja.comunica100@gmail.com: 
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 67-20020a370b46000000b0069ed3db4b8bsm1153773qkl.89 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [186.147.31.252]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [186.147.31.252]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 67-20020a370b46000000b0069ed3db4b8bsm1153773qkl.89 - gsmtp
+
+1: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 67-20020a370b46000000b0069ed3db4b8bsm1153773qkl.89 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection 67-20020a370b46000000b0069ed3db4b8bsm1153773qkl.89 - gsmtp
+
+2: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+
+probarrancabermeja.comunica100@gmail.com: 
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP h128-20020a1f9e86000000b003493b39ad89sm499915vke.36 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [186.147.31.252]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [186.147.31.252]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials h128-20020a1f9e86000000b003493b39ad89sm499915vke.36 - gsmtp
+
+1: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials h128-20020a1f9e86000000b003493b39ad89sm499915vke.36 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection h128-20020a1f9e86000000b003493b39ad89sm499915vke.36 - gsmtp
+
+2: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+
+probarrancabermeja.comunica100@gmail.com: 
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP v10-20020a67c88a000000b003282dc4e36fsm348612vsk.18 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [186.147.31.252]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [186.147.31.252]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials v10-20020a67c88a000000b003282dc4e36fsm348612vsk.18 - gsmtp
+
+1: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials v10-20020a67c88a000000b003282dc4e36fsm348612vsk.18 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection v10-20020a67c88a000000b003282dc4e36fsm348612vsk.18 - gsmtp
+
+2: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+
+probarrancabermeja.comunica100@gmail.com: 
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP bc37-20020a0561220da500b0034568f0ac38sm458279vkb.18 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [186.147.31.252]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [186.147.31.252]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials bc37-20020a0561220da500b0034568f0ac38sm458279vkb.18 - gsmtp
+
+1: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials bc37-20020a0561220da500b0034568f0ac38sm458279vkb.18 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection bc37-20020a0561220da500b0034568f0ac38sm458279vkb.18 - gsmtp
+
+2: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+
+probarrancabermeja.comunica100@gmail.com: 
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP s13-20020a05620a0bcd00b0067afe7dd3ffsm1609474qki.49 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [186.147.31.252]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [186.147.31.252]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials s13-20020a05620a0bcd00b0067afe7dd3ffsm1609474qki.49 - gsmtp
+
+1: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials s13-20020a05620a0bcd00b0067afe7dd3ffsm1609474qki.49 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection s13-20020a05620a0bcd00b0067afe7dd3ffsm1609474qki.49 - gsmtp
+
+2: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+
+probarrancabermeja.comunica100@gmail.com: 
+2: SERVER -> CLIENT: 
+2: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+
+probarrancabermeja.comunica100@gmail.com: 
+2: SERVER -> CLIENT: 
+2: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+
+martinalmeida56@gmail.com: 
+2: SERVER -> CLIENT: 
+2: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+
+martinalmeida56@gmail.com: 
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP n11-20020a05622a11cb00b002f344f11849sm468581qtk.71 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [186.147.31.252]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [186.147.31.252]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n11-20020a05622a11cb00b002f344f11849sm468581qtk.71 - gsmtp
+
+1: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n11-20020a05622a11cb00b002f344f11849sm468581qtk.71 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection n11-20020a05622a11cb00b002f344f11849sm468581qtk.71 - gsmtp
+
+2: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+
+probarrancabermeja.comunica100@gmail.com: 
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP x14-20020a05622a000e00b002f204bf4efdsm2277867qtw.70 - gsmtp
+
+1: CLIENT -> SERVER: EHLO probarrancabermeja.org
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [54.39.186.145]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO probarrancabermeja.org
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [54.39.186.145]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbu
+534-5.7.14 fkn00AZgysGsam_vlURDR-U8Y4wjBkLAUyTNQSoY4D5e9xG74oUcf47N-ScAw4nZZ3ZUH
+534-5.7.14 XgphDrYDY1wwfAA17zUijRdl58T7irEcMqHEAJTlfZ2XknLmEzr3yhWPORhLBzs7>
+534-5.7.14 Please log in via your web browser and then try again.
+534-5.7.14  Learn more at
+534 5.7.14  https://support.google.com/mail/answer/78754 x14-20020a05622a000e00b002f204bf4efdsm2277867qtw.70 - gsmtp
+
+1: SMTP ERROR: Password command failed: 534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbu
+534-5.7.14 fkn00AZgysGsam_vlURDR-U8Y4wjBkLAUyTNQSoY4D5e9xG74oUcf47N-ScAw4nZZ3ZUH
+534-5.7.14 XgphDrYDY1wwfAA17zUijRdl58T7irEcMqHEAJTlfZ2XknLmEzr3yhWPORhLBzs7>
+534-5.7.14 Please log in via your web browser and then try again.
+534-5.7.14  Learn more at
+534 5.7.14  https://support.google.com/mail/answer/78754 x14-20020a05622a000e00b002f204bf4efdsm2277867qtw.70 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection x14-20020a05622a000e00b002f204bf4efdsm2277867qtw.70 - gsmtp
+
+2: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+
+probarrancabermeja.comunica100@gmail.com: 
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP v18-20020a05620a441200b006a701d8a43bsm24278052qkp.79 - gsmtp
+
+1: CLIENT -> SERVER: EHLO probarrancabermeja.org
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [54.39.186.145]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO probarrancabermeja.org
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [54.39.186.145]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials v18-20020a05620a441200b006a701d8a43bsm24278052qkp.79 - gsmtp
+
+1: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials v18-20020a05620a441200b006a701d8a43bsm24278052qkp.79 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection v18-20020a05620a441200b006a701d8a43bsm24278052qkp.79 - gsmtp
+
+2: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+

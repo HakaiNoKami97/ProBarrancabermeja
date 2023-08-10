@@ -1,0 +1,15 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-04-20 09:10] Probarrancabermeja : ¡Hola! Soy un Bot, Bienvenido a RVO
+[2022-04-20 09:10] Cliente : hola
+[2022-04-20 09:10] Probarrancabermeja : ¿En que estas interesado/a?
+[2022-04-20 09:10] Cliente : servicios
+[2022-04-20 09:10] Probarrancabermeja : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-04-20 09:11] Cliente : andres
+[2022-04-20 09:11] Probarrancabermeja : Hola andres, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-04-20 09:11] Probarrancabermeja : ¿Podrías dejarme tu teléfono?
+[2022-04-20 09:11] Cliente : 3107698290
+[2022-04-20 09:11] Probarrancabermeja : ¿Podrías dejarme tu email?
+[2022-04-20 09:13] Cliente : asd@asd.com
+[2022-04-20 09:13] Probarrancabermeja : ¿Quieres dejarme alguna consulta adicional?
+[2022-04-20 09:13] Cliente : servicios
+[2022-04-20 09:13] Probarrancabermeja : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

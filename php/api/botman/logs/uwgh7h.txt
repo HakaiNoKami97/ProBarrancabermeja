@@ -1,0 +1,15 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2022-07-06 09:07] Probarrancabermeja : ¡Hola! Soy un Bot, Bienvenido a RVO
+[2022-07-06 09:07] Cliente : buenos dias .  mi nombre es lilian . soy ingeniera de produccion emprendedora 
+[2022-07-06 09:07] Probarrancabermeja : ¿En que estas interesado/a?
+[2022-07-06 09:08] Cliente : estoy buscando una oportunidad de vincularme laboralmente en una empresa y  me encantaria aplicar en probarranca
+[2022-07-06 09:08] Probarrancabermeja : Será un placer asistirte, ¿Cuál es tu nombre?
+[2022-07-06 09:08] Cliente : como haria?
+[2022-07-06 09:08] Probarrancabermeja : Hola como haria?, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2022-07-06 09:08] Probarrancabermeja : ¿Podrías dejarme tu teléfono?
+[2022-07-06 09:08] Cliente : 3002639983
+[2022-07-06 09:08] Probarrancabermeja : ¿Podrías dejarme tu email?
+[2022-07-06 09:08] Cliente : lili837@hotmail.com
+[2022-07-06 09:08] Probarrancabermeja : ¿Quieres dejarme alguna consulta adicional?
+[2022-07-06 09:08] Cliente : no
+[2022-07-06 09:08] Probarrancabermeja : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!

@@ -1,0 +1,17 @@
+----------------------NUEVA CONVERSACIÓN----------------------
+[2023-03-27 14:37] Probarrancabermeja : ¡Hola! Soy un Bot, Bienvenido a RVO
+[2023-03-27 14:37] Cliente : Hola, buenas tarde
+[2023-03-27 14:37] Probarrancabermeja : ¿En que estas interesado/a?
+[2023-03-27 14:37] Cliente : Asesor
+[2023-03-27 14:37] Probarrancabermeja : Será un placer asistirte, ¿Cuál es tu nombre?
+[2023-03-27 14:37] Cliente : Martha Nuñez Sarabia
+[2023-03-27 14:37] Probarrancabermeja : Hola Martha Nuñez Sarabia, yo me encargo de ponerte en contacto con un asesor para que responda tu consulta
+[2023-03-27 14:37] Probarrancabermeja : ¿Podrías dejarme tu teléfono?
+[2023-03-27 14:37] Cliente : si, claro. 3102136531
+[2023-03-27 14:37] Probarrancabermeja : Necesitaría un teléfono valido para que podamos contactarte. Digita de nuevo el teléfono
+[2023-03-27 14:38] Cliente : 3102136531
+[2023-03-27 14:38] Probarrancabermeja : ¿Podrías dejarme tu email?
+[2023-03-27 14:38] Cliente : marthapatricians@hotmail.com
+[2023-03-27 14:38] Probarrancabermeja : ¿Quieres dejarme alguna consulta adicional?
+[2023-03-27 14:40] Cliente : Deseo saber si es posible nos apoyen para una charla con jovenes, que estudian logistca. acerca del apoyo a emprendedores y empresarios de barrancabermeja, soy instructora del Sena y docente de Fundesmag instituto tecnico.
+[2023-03-27 14:40] Probarrancabermeja : Con la información que me has pasado un asesor se comunicará contigo a la brevedad. Muchas gracias por comunicarte!
