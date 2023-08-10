@@ -29,15 +29,15 @@
           <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-right">
             <div class="icon-box mt-5 mt-lg-0">
               <i class="bx bx-sitemap"></i>
-              <h3>Presidente: Arrendamientos Roberto Ogliastri LTDA</h3>
+              <h3>Presidente: Arrendamientos Roberto Ogliastri Inmobiliaria LTDA</h3>
             </div>
             <div class="icon-box mt-5">
               <i class="bx bx-briefcase"></i>
-              <h3>Vicepresidente: Rampint SAS</h3>
+              <h3>Vicepresidente: Instituto Técnico Praxis S.A.S</h3>
             </div>
             <div class="icon-box mt-5">
               <i class="bx bx-dollar-circle"></i>
-              <h3>Tesorero: Ruedas y Compañía SAS - RUYCO SAS</h3>
+              <h3>Tesorera: Transtecol S.A.S</h3>
             </div>
             <div class="icon-box mt-5">
               <i class="bx bx-archive"></i>
@@ -45,26 +45,42 @@
             </div>
             <div class="icon-box mt-5">
               <i class="bx bx-id-card"></i>
-              <h3>Vocal 01: Alianza Petrolera FC SAS</h3>
+              <h3>Vocal 01: Rampint S.A.S</h3>
             </div>
             <div class="icon-box mt-5">
               <i class="bx bx-id-card"></i>
-              <h3>Vocal 02: Caja Santandereana de Subsidio Familiar – CAJASAN</h3>
+              <h3>Vocal 02: Mercado de inversiones - MERINVERS SA</h3>
             </div>
             <div class="icon-box mt-5">
               <i class="bx bx-id-card"></i>
-              <h3>Vocal 03: Aseos y Servicios de Colombia - Assear SAS</h3>
+              <h3>Vocal 03: Once M S.A.S</h3>
             </div>
             <div class="icon-box mt-5">
               <i class="bx bx-id-card"></i>
-              <h3>Vocal 04: Venelin Colombia SAS</h3>
+              <h3>Vocal 04: Disandi S.A.S</h3>
             </div>
             <div class="icon-box mt-5">
               <i class="bx bx-id-card"></i>
-              <h3>Vocal 05: Instituto Técnico de Inglés Praxis</h3>
+              <h3>Vocal 05: Transportes San Pablo S.A</h3>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-id-card"></i>
+              <h3>Vocal 06: Caja Santandereana De Subsidio Familiar - Cajasan</h3>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-id-card"></i>
+              <h3>Vocal 07: Sipesa S.A.S</h3>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-id-card"></i>
+              <h3>Vocal 08: RVO IPS S.A.S</h3>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-id-card"></i>
+              <h3>Vocal 09: German Francisco Castro Espinosa</h3>
             </div>
           </div>
-          <img src="assets/img/equipo/equipo.jpg" class="img-fluid col-lg-6 order-1 order-lg-2" alt="">
+          <img src="assets/img/equipo/IMG_6709.jpg" class="img-fluid col-lg-6 order-1 order-lg-2" alt="">
         </div>
 
       </div>
