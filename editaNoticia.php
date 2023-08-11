@@ -59,7 +59,7 @@ if ($var1 == NULL || $var1 = '') {
                         </div>
 
                         <div class="col-sm-12 col-md-3">
-                            <label for="titulo">TIUTLO DE LA NOTICIA</label>
+                            <label for="titulo">TITULO DE LA NOTICIA</label>
                             <input type="text" class="form-control" name="edtitulo" id="edtitulo" <?php echo "value='$editar[titulo_noticia]'"; ?>>
                         </div>
                         <div class="col-sm-12 col-md-3">
@@ -74,13 +74,13 @@ if ($var1 == NULL || $var1 = '') {
                     <hr>
                     <div class="form-group p-2 m-2">
                         <span class="btn btn-primary btn-file">
-                            SELCCIONA UNA IMAGEN PARA LA PORTDAD DE LA NOTICIA.....<input type="file" class="form-control-file" name="edimagen" id="edimagen">
+                            SELECCIONA UNA IMAGEN PARA LA PORTADA DE LA NOTICIA:<input type="file" class="form-control-file" name="edimagen" id="edimagen">
                         </span>
                         <img src="<?php echo "functions/$editar[img_noticia]" ?>" class="col-md-5" alt="" height="auto" width="150">
                     </div>
                     <hr>
                     <div class="form-group p-2 m-2">
-                        <label for="noticia">DESCIPCION DE LA NOTICIA</label>
+                        <label for="noticia">DESCRIPCIÓN DE LA NOTICIA</label>
                         <textarea class="form-control" name="eddescripcion" id="eddescripcion" cols="100%" rows="10" max-rows="13" min-rows="8"> <?php echo " $editar[descripcion_noticia]" ?> </textarea>
                     </div>
                     <hr>

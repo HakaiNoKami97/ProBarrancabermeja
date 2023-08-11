@@ -22,7 +22,7 @@ if (isset($_POST['usuario'])) {
     if (empty($clave)) {
         echo "
     <div class='alert alert-info text-center alert-dismissible fade show' role='alert'>
-    <strong>Lo sentimos! El campo contrase帽a esta vacio.
+    <strong>Lo sentimos! El campo contraseña esta vacio.
     <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
     <span aria-hidden='true'>&times;</span>
     </button>
@@ -37,7 +37,7 @@ if (isset($_POST['usuario'])) {
 
 
     if (mysqli_num_rows($result) > 0) {
-        // Guardo en la sesi贸n del usuario.
+        // Guardo en la sesión del usuario.
         $_SESSION['clave'] = $clave;
         if (isset($_SESSION['clave'])) {
             echo 1;

@@ -46,7 +46,7 @@ if ($var1 == NULL || $var1 = '') {
                     <img class="" style="" width="100%" height="200" src="<?php echo " functions/$foto" ?>" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title"><?php echo "$rnoticias[fecha_noticia]" ?></h5>
-                        <p class="card-text"><?php echo $rnoticias['titulo_noticia']; ?></p>
+                        <p class="card-text"><?php echo "$rnoticias[titulo_noticia]" ?></p>
                         <hr>
                         <?php echo "<a href='functions/eliminar_noticia.php?codigo=$codigo ' title='Eliminar'class='btn btn-danger'><i class='fas fa-trash-alt'></i></a>"; ?>
                         <?php echo "<a href='editaNoticia.php?cdo=$codigo'  target='_blank' title='Editar' class='btn btn-warning'><i class='fas fa-edit text-white'></i></a>"; ?>
