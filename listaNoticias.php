@@ -59,6 +59,16 @@ function limitar_cadena($cadena, $limite, $sufijo)
               </div>
             </div>
           </div>
+          
+          <div class="col-sm-4 mb-4">
+            <div class="card cursor-pointer" style="height: 100%;" onclick="window.location='pdf/Boletín informativo 003-2023 - ProBarrancabermeja.pdf';">
+              <img class="card-img-top" src="assets/img/Probarrancabermeja_Portadas_3.png">
+
+              <div class="card-body">
+                <h4 class="card-title" style="color:#39364e;margin-bottom: 15px;">Boletín informativo 003-2023 - ProBarrancabermeja</h4>
+              </div>
+            </div>
+          </div>
 
         </div>
 

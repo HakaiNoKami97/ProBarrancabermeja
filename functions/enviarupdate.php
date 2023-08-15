@@ -28,14 +28,14 @@ if (isset($_POST['editargenerar'])) {
         </script>';
     } elseif (strlen($descripcion) > 6000) {
         echo'<script type="text/javascript">
-        alert("el campo descipcion tiene mas de 6000 caracteres");
+        alert("el campo descripcion tiene mas de 6000 caracteres");
         </script>';
     }else{
         if (file_exists('imagen_noticias')) {
             //mkdir('imagen_noticias', 0777, true);
             $ruta = 'imagen_noticias/' . $imagen;
             move_uploaded_file($temporal,$ruta);
-            mysqli_query($con," UPDATE noticias SET id_noticia='$codigo',fecha_noticia='$fecha',autor_noticia='$autor',titulo_noticia='$titulo',clasificacion = '$clase',img_noticia='$ruta',descripcion_noticia='$descripcion' WHERE  id_noticia = $codigo");
+            mysqli_query($con," UPDATE noticias SET id_noticia='$codigo',fecha_noticia='$fecha',autor_noticia='$autor',titulo_noticia='$titulo',clasificacion = '$clase',img_noticia='$ruta',descripcion_noticia='$descripcion', descripcion_corta='$descripcion' WHERE  id_noticia = $codigo");
             echo'<script type="text/javascript">
             alert("NOTICIA ACTUALIZADA DE MANERA EXITOSA");
             window.location.href="../verNoticias.php";

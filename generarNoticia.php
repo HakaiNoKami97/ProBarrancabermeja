@@ -80,13 +80,13 @@ if ($var1 == NULL || $var1 = '') {
                 <hr>
                 <div class="form-group p-2 m-2">
                     <span class="btn btn-primary btn-file">
-                        SELCCIONA UNA IMAGEN PARA LA PORTDAD DE LA NOTICIA.....<input type="file" class="form-control-file" name="imagen" id="imagen" required>
+                        SELECCIONA UNA IMAGEN PARA LA PORTADA DE LA NOTICIA:<input type="file" class="form-control-file" name="imagen" id="imagen" required>
                     </span>
                     <img id="photo" class="photo" width="300px" style="margin-left:10%; margin-top:2%;">
                 </div>
                 <hr>
                 <div class="form-group p-2 m-2">
-                    <label for="noticia">DESCIPCION DE LA NOTICIA</label>
+                    <label for="noticia">DESCRIPCION DE LA NOTICIA</label>
                     <textarea class="form-control" name="descripcion" id="descripcion" cols="100%" rows="10" max-rows="13" min-rows="8" required></textarea>
                 </div>
                 <hr>

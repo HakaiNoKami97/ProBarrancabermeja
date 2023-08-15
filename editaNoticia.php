@@ -26,7 +26,7 @@ if ($var1 == NULL || $var1 = '') {
     <!-- NAVIGATION -->
     <nav class="navbar  sticky-top " style="height:130px;">
         <div class="row col-lg-12">
-            <label class="navbar-brand alert text-white font-weight-bold col-lg-12 col-md-12 text-center">EDITOR DE NOTCIAS PRO BARRANACBERMEJA</label>
+            <label class="navbar-brand alert text-white font-weight-bold col-lg-12 col-md-12 text-center">EDITOR DE NOTICIAS PRO BARRANACBERMEJA</label>
         </div>
     </nav>
     <br>

@@ -13,6 +13,7 @@ if (isset($_POST['generar'])) {
     $tipo = $_FILES['imagen']['type'];
     $ruta = "";
     $descripcion = $_POST['descripcion'];
+    $descripcion_corta = $_POST['descripcion'];
  
     if (empty($fecha) || empty($autor) || empty($titulo) || empty($imagen) || empty($descripcion) || empty($clase)) {
         echo'<script type="text/javascript">
@@ -28,15 +29,15 @@ if (isset($_POST['generar'])) {
         </script>';
     } elseif (strlen($descripcion) > 6000) {
         echo'<script type="text/javascript">
-        alert("el campo descipcion tiene mas de 2000 caracteres");
+        alert("el campo descripcion tiene mas de 2000 caracteres");
         </script>';
     }else{
         if (!is_dir('imagen_noticias')) {
             mkdir('imagen_noticias', 0777, true);
             $ruta = 'imagen_noticias/' . $imagen;
             move_uploaded_file($temporal, 'imagen_noticias/', $ruta);
-            $consulta = mysqli_query($con,"INSERT INTO noticias(fecha_noticia,autor_noticia,titulo_noticia,clasificacion,img_noticia,descripcion_noticia)
-            VALUES ('$fecha','$autor','$titulo','$clase','$ruta','$descripcion')");
+            $consulta = mysqli_query($con,"INSERT INTO noticias(fecha_noticia,autor_noticia,titulo_noticia,clasificacion,img_noticia,descripcion_noticia,descripcion_corta)
+            VALUES ('$fecha','$autor','$titulo','$clase','$ruta','$descripcion','$descripcion_corta')");
             if($consuta = false){
                 echo "Error de la consulta:" . mysqli_error($con);
             }else{
@@ -49,8 +50,8 @@ if (isset($_POST['generar'])) {
             
             $ruta = 'imagen_noticias/'. $imagen;
             move_uploaded_file($temporal, $ruta);
-            $nueva = mysqli_query($con,"INSERT INTO noticias(fecha_noticia,autor_noticia,titulo_noticia,clasificacion,img_noticia,descripcion_noticia)
-            VALUES ('$fecha','$autor','$titulo','$clase','$ruta','$descripcion')");
+            $nueva = mysqli_query($con,"INSERT INTO noticias(fecha_noticia,autor_noticia,titulo_noticia,clasificacion,img_noticia,descripcion_noticia,descripcion_corta)
+            VALUES ('$fecha','$autor','$titulo','$clase','$ruta','$descripcion','$descripcion_corta')");
             if ($nueva ==  false){
                 echo "Error de la consulta:" . mysqli_error($con);
             }else{
