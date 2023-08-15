@@ -13,7 +13,7 @@ if (isset($_POST['generar'])) {
     $tipo = $_FILES['imagen']['type'];
     $ruta = "";
     $descripcion = $_POST['descripcion'];
-    $descripcion_corta = $_POST['descripcion'];
+    $descripcion_corta = strlen($descripcion) > 200 ? substr($descripcion, 0, 200) . "..." : $descripcion;
  
     if (empty($fecha) || empty($autor) || empty($titulo) || empty($imagen) || empty($descripcion) || empty($clase)) {
         echo'<script type="text/javascript">
