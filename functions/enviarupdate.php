@@ -13,6 +13,7 @@ if (isset($_POST['editargenerar'])) {
     $tipo = $_FILES['edimagen']['type'];
     $ruta = "";
     $descripcion = $_POST['eddescripcion'];
+    $descripcion_corta = strlen($descripcion) > 200 ? substr($descripcion, 0, 200) . "..." : $descripcion;
 
     if (empty($fecha) || empty($autor) || empty($titulo) || empty($imagen) || empty($descripcion) || empty($clase)) {
         echo'<script type="text/javascript">

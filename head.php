@@ -2,8 +2,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>ProBarrancabermeja</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta content="Organización empresarial y centro de desarrollo que trabaja por el crecimiento de Barrancabermeja y la región del Magdalena Medio." name="description">
+  <meta content="Organización empresarial y centro de desarrollo que trabaja por el crecimiento de Barrancabermeja y la región del Magdalena Medio." name="keywords">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <!-- Favicons -->

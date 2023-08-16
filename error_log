@@ -239,3 +239,9 @@ Stack trace:
 #0 /home/probarrancaberme/public_html/login.php(111): mysqli_close(NULL)
 #1 {main}
   thrown in /home/probarrancaberme/public_html/login.php on line 111
+[16-Aug-2023 13:39:32 UTC] PHP Warning:  Undefined variable $con in /home/probarrancaberme/public_html/inversion.php on line 183
+[16-Aug-2023 13:39:33 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/probarrancaberme/public_html/inversion.php:183
+Stack trace:
+#0 /home/probarrancaberme/public_html/inversion.php(183): mysqli_query(NULL, 'SELECT * FROM n...')
+#1 {main}
+  thrown in /home/probarrancaberme/public_html/inversion.php on line 183
