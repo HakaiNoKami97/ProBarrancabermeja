@@ -65,7 +65,7 @@ function limitar_cadena($cadena, $limite, $sufijo)
               <li><i class="icofont-check-circled"></i> Acompañamiento en el proceso de exportación.</li>
               <li><i class="icofont-check-circled"></i> Identificación de oportunidades en los mercados internacionales.</li>
               <li><i class="icofont-check-circled"></i> Actividades de promoción comercial.</li><br>
-              <a class="about-btn scrollto" href="https://procolombia.co/" target="_blank">Descubre los programas de formación de ProColombia</a>
+              <a class="about-btn scrollto" href="https://www.colombiatrade.com.co/programas-de-formacion" target="_blank">Descubre los programas de formación de ProColombia</a>
           </div>
         </div>
 

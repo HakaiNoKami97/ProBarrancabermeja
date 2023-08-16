@@ -73,3 +73,19 @@ Stack trace:
 #1 {main}
   thrown in /home/probarrancaberme/public_html/functions/guardar_noticia.php on line 51
 [11-Aug-2023 20:36:54 UTC] PHP Warning:  Array to string conversion in /home/probarrancaberme/public_html/functions/enviarupdate.php on line 36
+[16-Aug-2023 21:24:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: move_uploaded_file() expects exactly 2 arguments, 3 given in /home/probarrancaberme/public_html/functions/guardar_noticia.php:52
+Stack trace:
+#0 /home/probarrancaberme/public_html/functions/guardar_noticia.php(52): move_uploaded_file('', 'imagen_noticias...', 'imagen_noticias...')
+#1 {main}
+  thrown in /home/probarrancaberme/public_html/functions/guardar_noticia.php on line 52
+[16-Aug-2023 21:24:18 UTC] PHP Fatal error:  Uncaught ArgumentCountError: move_uploaded_file() expects exactly 2 arguments, 3 given in /home/probarrancaberme/public_html/functions/guardar_noticia.php:52
+Stack trace:
+#0 /home/probarrancaberme/public_html/functions/guardar_noticia.php(52): move_uploaded_file('', 'imagen_noticias...', 'imagen_noticias...')
+#1 {main}
+  thrown in /home/probarrancaberme/public_html/functions/guardar_noticia.php on line 52
+[16-Aug-2023 21:25:32 UTC] PHP Fatal error:  Uncaught ArgumentCountError: move_uploaded_file() expects exactly 2 arguments, 3 given in /home/probarrancaberme/public_html/functions/guardar_noticia.php:52
+Stack trace:
+#0 /home/probarrancaberme/public_html/functions/guardar_noticia.php(52): move_uploaded_file('', 'imagen_noticias...', 'imagen_noticias...')
+#1 {main}
+  thrown in /home/probarrancaberme/public_html/functions/guardar_noticia.php on line 52
+[16-Aug-2023 21:42:25 UTC] PHP Warning:  mkdir(): File exists in /home/probarrancaberme/public_html/functions/guardar_noticia.php on line 50

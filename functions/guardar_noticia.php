@@ -29,7 +29,7 @@ if (isset($_POST['generar'])) {
         </script>';
     } elseif (strlen($descripcion) > 6000) {
         echo'<script type="text/javascript">
-        alert("el campo descripcion tiene mas de 2000 caracteres");
+        alert("el campo descripcion tiene mas de 6000 caracteres");
         </script>';
     }else{
         if (!is_dir('imagen_noticias')) {
@@ -38,7 +38,7 @@ if (isset($_POST['generar'])) {
             move_uploaded_file($temporal, 'imagen_noticias/', $ruta);
             $consulta = mysqli_query($con,"INSERT INTO noticias(fecha_noticia,autor_noticia,titulo_noticia,clasificacion,img_noticia,descripcion_noticia,descripcion_corta)
             VALUES ('$fecha','$autor','$titulo','$clase','$ruta','$descripcion','$descripcion_corta')");
-            if($consuta = false){
+            if($consulta == false){
                 echo "Error de la consulta:" . mysqli_error($con);
             }else{
                 echo'<script type="text/javascript">
@@ -47,7 +47,6 @@ if (isset($_POST['generar'])) {
                 </script>';
             }
         } else {
-            
             $ruta = 'imagen_noticias/'. $imagen;
             move_uploaded_file($temporal, $ruta);
             $nueva = mysqli_query($con,"INSERT INTO noticias(fecha_noticia,autor_noticia,titulo_noticia,clasificacion,img_noticia,descripcion_noticia,descripcion_corta)
@@ -55,10 +54,10 @@ if (isset($_POST['generar'])) {
             if ($nueva ==  false){
                 echo "Error de la consulta:" . mysqli_error($con);
             }else{
-                echo"<script type='text/javascript'>
-                alert('NOTICIA AGREGADA DE MANERA EXITOSA');
-                window.location.href='../generarNoticia.php';
-                </script>";
+                echo'<script type="text/javascript">
+                alert("NOTICIA AGREGADA DE MANERA EXITOSA");
+                window.location.href="../generarNoticia.php";
+                </script>';
             }
 
         }
