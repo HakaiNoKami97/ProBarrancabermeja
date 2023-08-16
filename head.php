@@ -4,6 +4,32 @@
   <title>ProBarrancabermeja</title>
   <meta content="Organizaci贸n empresarial y centro de desarrollo que trabaja por el crecimiento de Barrancabermeja y la regi贸n del Magdalena Medio." name="description">
   <meta content="Organizaci贸n empresarial y centro de desarrollo que trabaja por el crecimiento de Barrancabermeja y la regi贸n del Magdalena Medio." name="keywords">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+  <title>Mi Página</title>
+  <script>
+        // Función para actualizar los meta tags Open Graph
+        function actualizarMetaTags(url, titulo, descripcion, imagen) {
+            document.querySelector('meta[property="og:url"]').content = url;
+            document.querySelector('meta[property="og:title"]').content = titulo;
+            document.querySelector('meta[property="og:description"]').content = descripcion;
+            document.querySelector('meta[property="og:image"]').content = imagen;
+        }
+
+        // Ejecutar la función cuando la página esté lista
+        window.onload = function() {
+            var urlActual = window.location.href;
+            var tituloPagina = document.title;
+            var descripcionPagina = "Descripción predeterminada";
+            var imagenPortada = "URL_de_imagen_predeterminada.jpg";
+
+            // Actualizar los valores de los meta tags según la página actual
+            actualizarMetaTags(urlActual, tituloPagina, descripcionPagina, imagenPortada);
+        };
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <!-- Favicons -->
