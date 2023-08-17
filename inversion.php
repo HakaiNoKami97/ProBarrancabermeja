@@ -1,3 +1,4 @@
+<?php require_once 'functions/conexion.php' ?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -30,7 +31,6 @@
   </section><!-- End Hero -->
 
   <main id="main">
-
 
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
@@ -152,34 +152,41 @@
           </div>
         </div>
       </div>
+    </section><!-- End About Us Section -->
+    
+    <?php $clase = "inversion"; ?>
 
-      <!--moda para evento promocional pro-->
-      <div class="modal fade bd-example-modal-lg " data-aos="zoom-in" id="eventopro" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-          <div class="modal-content">
-            <div class="modal-header d-none">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+    <?php $consulta = mysqli_query($con, "SELECT * FROM noticias WHERE clasificacion = '$clase' ORDER BY fecha_noticia DESC LIMIT 3 "); ?>
+
+    <section>
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Noticias Recientes</h2>
+        </div>
+        <div class="row">
+          <?php foreach ($consulta as $noticias) : ?>
+            <?php $cdo = $noticias['id_noticia']; ?>
+            <?php $codigos = $noticias['id_noticia']; ?>
+            <?php $nota = $noticias['titulo_noticia']; ?>
+            <?php $descripcion_corta = $noticias['descripcion_corta']; ?>
+            <div class="col-sm-4">
+              <div class="card" style="height: 100%;">
+                <img src="<?php echo "functions/$noticias[img_noticia]" ?>" class="card-img-top">
+                <div class="card-body">
+                  <h4 class="card-title" style="color:#39364e;margin-bottom: 15px;"><?php echo $nota ?></h4>
+                  <p class="card-text" style="color:#696969;font-size: 16px;"><?php echo $descripcion_corta; ?></p>
+                </div>
+                <div class="card-footer card-footer-pro export"><?php echo "<a href='leerNoticias.php?cdo=$cdo' target='_blank' class='export-btn scrollto'>Ver enlace</a>"; ?></div>
+              </div>
             </div>
-            <img height="200%" class=’img-responsive’ src="https://cdn.www.gob.pe/uploads/document/file/1907938/standard_SNI2021-Nota-web.jpg.jpg">
-            <a href="https://proyectosdeinversion.probarrancabermeja.org/" id="btn-formulario" type="button" class="btn prointer-btn">Registrate</a>
-          </div>
+          <?php endforeach ?>
+        </div>
+        <div class="row align-items-stretch justify-content-center mt-5 export" style="z-index: 1">
+          <a class="export-btn scrollto" href="listaNoticias.php" style="z-index: 1">Ver Más Noticias</a>
         </div>
       </div>
-
-      <style>
-        #btn-formulario {
-          width: 200px;
-          height: 50px;
-          position: absolute;
-          top: 85%;
-          left: 35%;
-
-        }
-      </style>
-    </section><!-- End About Us Section -->
-
+    </section>
+    
   </main><!-- End #main -->
 
 

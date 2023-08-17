@@ -245,3 +245,85 @@ Stack trace:
 #0 /home/probarrancaberme/public_html/inversion.php(183): mysqli_query(NULL, 'SELECT * FROM n...')
 #1 {main}
   thrown in /home/probarrancaberme/public_html/inversion.php on line 183
+[17-Aug-2023 15:20:04 UTC] PHP Warning:  Undefined variable $con in /home/probarrancaberme/public_html/inversion.php on line 184
+[17-Aug-2023 15:20:04 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/probarrancaberme/public_html/inversion.php:184
+Stack trace:
+#0 /home/probarrancaberme/public_html/inversion.php(184): mysqli_query(NULL, 'SELECT * FROM n...')
+#1 {main}
+  thrown in /home/probarrancaberme/public_html/inversion.php on line 184
+[17-Aug-2023 15:23:17 UTC] PHP Warning:  Undefined variable $con in /home/probarrancaberme/public_html/inversion.php on line 185
+[17-Aug-2023 15:23:17 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/probarrancaberme/public_html/inversion.php:185
+Stack trace:
+#0 /home/probarrancaberme/public_html/inversion.php(185): mysqli_query(NULL, 'SELECT * FROM n...')
+#1 {main}
+  thrown in /home/probarrancaberme/public_html/inversion.php on line 185
+[17-Aug-2023 15:26:46 UTC] PHP Warning:  Undefined variable $con in /home/probarrancaberme/public_html/inversion.php on line 35
+[17-Aug-2023 15:26:46 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/probarrancaberme/public_html/inversion.php:35
+Stack trace:
+#0 /home/probarrancaberme/public_html/inversion.php(35): mysqli_query(NULL, 'SELECT * FROM n...')
+#1 {main}
+  thrown in /home/probarrancaberme/public_html/inversion.php on line 35
+[17-Aug-2023 15:28:40 UTC] PHP Warning:  Undefined variable $con in /home/probarrancaberme/public_html/inversion.php on line 35
+[17-Aug-2023 15:28:40 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/probarrancaberme/public_html/inversion.php:35
+Stack trace:
+#0 /home/probarrancaberme/public_html/inversion.php(35): mysqli_query(NULL, 'SELECT * FROM n...')
+#1 {main}
+  thrown in /home/probarrancaberme/public_html/inversion.php on line 35
+[17-Aug-2023 15:28:44 UTC] PHP Warning:  Undefined variable $con in /home/probarrancaberme/public_html/inversion.php on line 35
+[17-Aug-2023 15:28:44 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/probarrancaberme/public_html/inversion.php:35
+Stack trace:
+#0 /home/probarrancaberme/public_html/inversion.php(35): mysqli_query(NULL, 'SELECT * FROM n...')
+#1 {main}
+  thrown in /home/probarrancaberme/public_html/inversion.php on line 35
+[17-Aug-2023 15:36:36 UTC] PHP Warning:  Undefined variable $con in /home/probarrancaberme/public_html/inversion.php on line 158
+[17-Aug-2023 15:36:36 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/probarrancaberme/public_html/inversion.php:158
+Stack trace:
+#0 /home/probarrancaberme/public_html/inversion.php(158): mysqli_query(NULL, 'SELECT * FROM n...')
+#1 {main}
+  thrown in /home/probarrancaberme/public_html/inversion.php on line 158
+[17-Aug-2023 15:38:28 UTC] PHP Warning:  Undefined variable $con in /home/probarrancaberme/public_html/inversion.php on line 183
+[17-Aug-2023 15:38:28 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/probarrancaberme/public_html/inversion.php:183
+Stack trace:
+#0 /home/probarrancaberme/public_html/inversion.php(183): mysqli_query(NULL, 'SELECT * FROM n...')
+#1 {main}
+  thrown in /home/probarrancaberme/public_html/inversion.php on line 183
+[17-Aug-2023 16:09:02 UTC] PHP Warning:  Undefined variable $con in /home/probarrancaberme/public_html/inversion.php on line 160
+[17-Aug-2023 16:09:02 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/probarrancaberme/public_html/inversion.php:160
+Stack trace:
+#0 /home/probarrancaberme/public_html/inversion.php(160): mysqli_query(NULL, 'SELECT * FROM n...')
+#1 {main}
+  thrown in /home/probarrancaberme/public_html/inversion.php on line 160
+[17-Aug-2023 16:13:24 UTC] PHP Warning:  Undefined variable $con in /home/probarrancaberme/public_html/inversion.php on line 160
+[17-Aug-2023 16:13:24 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/probarrancaberme/public_html/inversion.php:160
+Stack trace:
+#0 /home/probarrancaberme/public_html/inversion.php(160): mysqli_query(NULL, 'SELECT * FROM n...')
+#1 {main}
+  thrown in /home/probarrancaberme/public_html/inversion.php on line 160
+[17-Aug-2023 16:15:41 UTC] PHP Warning:  Undefined variable $con in /home/probarrancaberme/public_html/inversion.php on line 160
+[17-Aug-2023 16:15:41 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/probarrancaberme/public_html/inversion.php:160
+Stack trace:
+#0 /home/probarrancaberme/public_html/inversion.php(160): mysqli_query(NULL, 'SELECT * FROM n...')
+#1 {main}
+  thrown in /home/probarrancaberme/public_html/inversion.php on line 160
+[17-Aug-2023 16:17:23 UTC] PHP Warning:  Undefined variable $con in /home/probarrancaberme/public_html/inversion.php on line 160
+[17-Aug-2023 16:17:23 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/probarrancaberme/public_html/inversion.php:160
+Stack trace:
+#0 /home/probarrancaberme/public_html/inversion.php(160): mysqli_query(NULL, 'SELECT * FROM n...')
+#1 {main}
+  thrown in /home/probarrancaberme/public_html/inversion.php on line 160
+[17-Aug-2023 16:24:16 UTC] PHP Warning:  Undefined variable $con in /home/probarrancaberme/public_html/inversion.php on line 159
+[17-Aug-2023 16:24:16 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/probarrancaberme/public_html/inversion.php:159
+Stack trace:
+#0 /home/probarrancaberme/public_html/inversion.php(159): mysqli_query(NULL, 'SELECT * FROM n...')
+#1 {main}
+  thrown in /home/probarrancaberme/public_html/inversion.php on line 159
+[17-Aug-2023 16:24:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function require_onceerror_reporting() in /home/probarrancaberme/public_html/inversion.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/probarrancaberme/public_html/inversion.php on line 1
+[17-Aug-2023 16:24:58 UTC] PHP Warning:  Undefined variable $con in /home/probarrancaberme/public_html/inversion.php on line 161
+[17-Aug-2023 16:24:58 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/probarrancaberme/public_html/inversion.php:161
+Stack trace:
+#0 /home/probarrancaberme/public_html/inversion.php(161): mysqli_query(NULL, 'SELECT * FROM n...')
+#1 {main}
+  thrown in /home/probarrancaberme/public_html/inversion.php on line 161

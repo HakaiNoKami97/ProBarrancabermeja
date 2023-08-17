@@ -65,7 +65,7 @@ function limitar_cadena($cadena, $limite, $sufijo)
               <li><i class="icofont-check-circled"></i> Acompañamiento en el proceso de exportación.</li>
               <li><i class="icofont-check-circled"></i> Identificación de oportunidades en los mercados internacionales.</li>
               <li><i class="icofont-check-circled"></i> Actividades de promoción comercial.</li><br>
-              <a class="about-btn scrollto" href="https://www.colombiatrade.com.co/programas-de-formacion" target="_blank">Descubre los programas de formación de ProColombia</a>
+              <a class="about-btn scrollto" href="https://formacionexportadora.colombiatrade.com.co/herramientas-para-futuros-exportadores" target="_blank">Descubre los programas de formación de ProColombia</a>
           </div>
         </div>
 
@@ -77,7 +77,7 @@ function limitar_cadena($cadena, $limite, $sufijo)
 
     <?php $clase = "exportacion"; ?>
 
-    <?php $consulta = mysqli_query($con, "SELECT * FROM noticias ORDER BY RAND() DESC LIMIT 3 "); ?>
+    <?php $consulta = mysqli_query($con, "SELECT * FROM noticias WHERE clasificacion = '$clase' ORDER BY fecha_noticia DESC LIMIT 3 "); ?>
 
     <section>
       <div class="container" data-aos="fade-up">
