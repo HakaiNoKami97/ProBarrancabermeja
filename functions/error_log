@@ -89,3 +89,23 @@ Stack trace:
 #1 {main}
   thrown in /home/probarrancaberme/public_html/functions/guardar_noticia.php on line 52
 [16-Aug-2023 21:42:25 UTC] PHP Warning:  mkdir(): File exists in /home/probarrancaberme/public_html/functions/guardar_noticia.php on line 50
+[17-Aug-2023 18:48:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'rol_usuario' doesn't have a default value in /home/probarrancaberme/public_html/functions/procesar_registro.php:26
+Stack trace:
+#0 /home/probarrancaberme/public_html/functions/procesar_registro.php(26): mysqli_stmt_execute(Object(mysqli_stmt))
+#1 {main}
+  thrown in /home/probarrancaberme/public_html/functions/procesar_registro.php on line 26
+[18-Aug-2023 14:52:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'rol_usuario' doesn't have a default value in /home/probarrancaberme/public_html/functions/procesar_registro.php:24
+Stack trace:
+#0 /home/probarrancaberme/public_html/functions/procesar_registro.php(24): mysqli_stmt_execute(Object(mysqli_stmt))
+#1 {main}
+  thrown in /home/probarrancaberme/public_html/functions/procesar_registro.php on line 24
+[18-Aug-2023 15:07:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'rol_usuario' doesn't have a default value in /home/probarrancaberme/public_html/functions/procesar_registro.php:21
+Stack trace:
+#0 /home/probarrancaberme/public_html/functions/procesar_registro.php(21): mysqli_stmt_execute(Object(mysqli_stmt))
+#1 {main}
+  thrown in /home/probarrancaberme/public_html/functions/procesar_registro.php on line 21
+[18-Aug-2023 15:09:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'rol_usuario' doesn't have a default value in /home/probarrancaberme/public_html/functions/procesar_registro.php:20
+Stack trace:
+#0 /home/probarrancaberme/public_html/functions/procesar_registro.php(20): mysqli_stmt_execute(Object(mysqli_stmt))
+#1 {main}
+  thrown in /home/probarrancaberme/public_html/functions/procesar_registro.php on line 20

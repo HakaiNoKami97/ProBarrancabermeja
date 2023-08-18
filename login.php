@@ -41,6 +41,9 @@
 					</form>
 
 				</div>
+				<div class="text-center">
+                    <p style="color: white;">¿No tienes una cuenta? <a href="register.php">Regístrate aquí</a></p>
+                </div>
 			</div>
 
 

@@ -24,7 +24,8 @@
         <div class="section-title">
           <h2>Nuestros Miembros</h2>
         </div>
-
+        
+        <!-- ======= Miembros Section ======= -->
         <div class="row">
 
           <div class="col-lg-3 col-md-4 col-6 d-flex align-items-stretch">
@@ -665,6 +666,7 @@
 
 
         </div>
+        <!-- ======= End Miembros Section ======= -->
 
         <div class="section-titlecanasta">
           <h2>
