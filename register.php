@@ -36,6 +36,9 @@
                         </div>
                     </form>
                 </div>
+                <div class="text-center">
+                    <p style="color: white;">¿Ya tienes una cuenta? <a href="login.php">¡Inicia Sesión!</a></p>
+                </div>
             </div>
         </div>
     </div>

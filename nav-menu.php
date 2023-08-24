@@ -37,7 +37,6 @@
               <li><a href="miembros">MIEMBROS</a></li>
               <li><a href="marca">NUESTRA MARCA</a></li>
               <li><a href="esal">ACTUALIZACIÓN RTE</a></li>
-              <li><a href="login" target="_blank">PANEL</a></li>
             </ul>
           </li>
           <li><a href="exportacion">EXPORTACIONES</a></li>
