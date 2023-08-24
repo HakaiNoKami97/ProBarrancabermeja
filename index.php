@@ -278,56 +278,37 @@ function limitar_cadena($cadena, $limite, $sufijo)
         <div class="section-title">
           <h2>Nuestros Miembros</h2>
         </div>
-
-        <div class="owl-carousel gallery-carousel" data-aos="fade-up" data-interval="2000">
-
-          <img class="gallery-img" src="assets/img/asociados/asociado-2.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-3.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-4.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-5.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/bestprint.png" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-7.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-8.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-9.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-10.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-11.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-12.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-50.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-13.jpg" alt="">
-
-          <img class="gallery-img" src="assets/img/asociados/asociado-15.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-16.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-17.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-18.jpg" alt="">
-
-          <img class="gallery-img" src="assets/img/asociados/asociado-20.jpg" alt="">
-
-          <img class="gallery-img" src="assets/img/asociados/asociado-23.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-24.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-25.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-26.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-27.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-28.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-29.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/roberto.png" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-31.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-32.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-33.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-34.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-35.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-36.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-37.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-38.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-39.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-40.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-41.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-42.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-43.jpg" alt="">
-          <img class="gallery-img" src="assets/img/asociados/asociado-44.jpg" alt="">
+        <div class="row">
+          <?php
+          $servidor = "localhost";
+          $database = "pro_noticias";
+          $usuario = "technolo_pro";
+          $clave = "5}J6m4#ho(fJ";
+    
+          $con = mysqli_connect($servidor, $usuario, $clave, $database);
+    
+          if ($con->connect_error) {
+              die("Error al conectarse a la base de datos: " . $con->connect_error);
+          }
+    
+          $sql = "SELECT * FROM miembros_section";
+          $result = $con->query($sql);
+    
+          if ($result->num_rows > 0) {
+                  echo '<div class="owl-carousel gallery-carousel" data-aos="fade-up" data-interval="2000">';
+                  while ($row = $result->fetch_assoc()) {
+                    echo '<img src="' . $row['img_miembro'] . '" class="img-fluid" alt="">';
+                  }
+                  echo '</div>';
+          } else {
+                echo "<p>No hay miembros disponibles.</p>";
+          }
+          $con->close();
+          ?>
         </div>
-
       </div>
-    </section><!-- End Gallery Section -->
+    </section>
+    <!-- End Gallery Section -->
 
   </main><!-- End #main -->
 

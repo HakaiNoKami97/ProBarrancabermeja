@@ -327,3 +327,11 @@ Stack trace:
 #0 /home/probarrancaberme/public_html/inversion.php(161): mysqli_query(NULL, 'SELECT * FROM n...')
 #1 {main}
   thrown in /home/probarrancaberme/public_html/inversion.php on line 161
+[24-Aug-2023 16:26:30 UTC] PHP Warning:  Undefined variable $row in /home/probarrancaberme/public_html/index.php on line 299
+[24-Aug-2023 16:26:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/probarrancaberme/public_html/index.php on line 299
+[24-Aug-2023 16:26:48 UTC] PHP Warning:  Undefined variable $row in /home/probarrancaberme/public_html/index.php on line 299
+[24-Aug-2023 16:26:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/probarrancaberme/public_html/index.php on line 299
+[24-Aug-2023 16:32:00 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/probarrancaberme/public_html/index.php:300
+Stack trace:
+#0 {main}
+  thrown in /home/probarrancaberme/public_html/index.php on line 300
