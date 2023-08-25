@@ -24,86 +24,43 @@
         </div>
 
         <div class="row">
+        <?php
+        $servidor = "localhost";
+        $database = "pro_noticias";
+        $usuario = "technolo_pro";
+        $clave = "5}J6m4#ho(fJ";
+        
+        $con = mysqli_connect($servidor, $usuario, $clave, $database);
+        
+        if (!$con) {
+            die("Error al conectarse a la base de datos: " . mysqli_connect_error());
+        }
+        
+        $sql = "SELECT * FROM rte_section";
+        $result = mysqli_query($con, $sql);
+        
+        if (mysqli_num_rows($result) > 0) {
+            while ($row = mysqli_fetch_assoc($result)) {
+                echo '<div class="col-sm-3 mb-5">';
+                echo '<div class="card card-docs" style="height: 100%;" data-aos="fade-up" data-aos-delay="400">';
+                echo '<i class="fa-solid fa-file-pdf fa-8x text-danger card-img-top" style="height:10rem;text-align: center;padding:20px"></i>';
+                echo '<div class="card-body">';
+                echo '<h5 class="card-title" style="color:#39364e;margin-bottom: 15px;">'. $row['nombre_rte'] .'</h5>';
+                echo '</div>';
+                echo '<div class="card-footer card-footer-pro export">';
+                echo '<a href="' . $row['archivo_rte'] . '" target="_blank" class="export-btn scrollto">Descargar</a>';
+                echo '</div>';
+                echo '</div>';
+                echo '</div>';
+            }
+        } else {
+            echo "<p>No hay miembros disponibles.</p>";
+        }
+        
+        mysqli_close($con);
+        ?>
 
-          <div class="col-sm-3 mb-5">
-            <div class="card card-docs" style="height: 100%;" data-aos="fade-up" data-aos-delay="400">
-              <i class="fa-solid fa-file-pdf fa-8x text-danger card-img-top" style="height:10rem;text-align: center;padding:20px"></i>
-              <div class="card-body">
-                <h5 class="card-title" style="color:#39364e;margin-bottom: 15px;">1. Informe de Gestión 2022</h5>
-              </div>
-              <div class="card-footer card-footer-pro export"><a href='assets/documentacion/1. Informe de Gestión 2022.pdf' target='_blank' class='export-btn scrollto'>Descargar</a></div>
-            </div>
-          </div>
-
-          <div class="col-sm-3 mb-5">
-            <div class="card card-docs" style="height: 100%;" data-aos="fade-up" data-aos-delay="400">
-              <i class="fa-solid fa-file-pdf fa-8x text-danger card-img-top" style="height:10rem;text-align: center;padding:20px"></i>
-              <div class="card-body">
-                <h5 class="card-title" style="color:#39364e;margin-bottom: 15px;">2. Estado de la Situación Financiera año 2022</h5>
-              </div>
-              <div class="card-footer card-footer-pro export"><a href='assets/documentacion/2. Estado de la Situación Financiera año 2022.pdf' target='_blank' class='export-btn scrollto'>Descargar</a></div>
-            </div>
-          </div>
-
-          <div class="col-sm-3 mb-5">
-            <div class="card card-docs" style="height: 100%;" data-aos="fade-up" data-aos-delay="400">
-              <i class="fa-solid fa-file-pdf fa-8x text-danger card-img-top" style="height:10rem;text-align: center;padding:20px"></i>
-              <div class="card-body">
-                <h5 class="card-title" style="color:#39364e;margin-bottom: 15px;">3. Rut Año 2023</h5>
-              </div>
-              <div class="card-footer card-footer-pro export"><a href='assets/documentacion/3. Rut Año 2023.pdf' target='_blank' class='export-btn scrollto'>Descargar</a></div>
-            </div>
-          </div>
-
-          <div class="col-sm-3 mb-5">
-            <div class="card card-docs" style="height: 100%;" data-aos="fade-up" data-aos-delay="400">
-              <i class="fa-solid fa-file-pdf fa-8x text-danger card-img-top" style="height:10rem;text-align: center;padding:20px"></i>
-              <div class="card-body">
-                <h5 class="card-title" style="color:#39364e;margin-bottom: 15px;">4. Certificado de Antecedentes y Cargos - Árticulos 364-3 y 364-5
-              </div>
-              <div class="card-footer card-footer-pro export"><a href='assets/documentacion/4. Certificado de Antecedentes y Cargos - Árticulos 364-3 y 364-5.pdf' target='_blank' class='export-btn scrollto'>Descargar</a></div>
-            </div>
-          </div>
-
-          <div class="col-sm-3 mb-5">
-            <div class="card card-docs" style="height: 100%;" data-aos="fade-up" data-aos-delay="400">
-              <i class="fa-solid fa-file-pdf fa-8x text-danger card-img-top" style="height:10rem;text-align: center;padding:20px"></i>
-              <div class="card-body">
-                <h5 class="card-title" style="color:#39364e;margin-bottom: 15px;">5. Acta Asamblea General 2023
-              </div>
-              <div class="card-footer card-footer-pro export"><a href='assets/documentacion/5. Acta Asamblea General 2023.pdf' target='_blank' class='export-btn scrollto'>Descargar</a></div>
-            </div>
-          </div>
-
-          <div class="col-sm-3 mb-5">
-            <div class="card card-docs" style="height: 100%;" data-aos="fade-up" data-aos-delay="400">
-              <i class="fa-solid fa-file-pdf fa-8x text-danger card-img-top" style="height:10rem;text-align: center;padding:20px"></i>
-              <div class="card-body">
-                <h5 class="card-title" style="color:#39364e;margin-bottom: 15px;">6. Acta de Constitución
-              </div>
-              <div class="card-footer card-footer-pro export"><a href='assets/documentacion/6. Acta de Constitucion.pdf' target='_blank' class='export-btn scrollto'>Descargar</a></div>
-            </div>
-          </div>
-
-          <div class="col-sm-3 mb-5">
-            <div class="card card-docs" style="height: 100%;" data-aos="fade-up" data-aos-delay="400">
-              <i class="fa-solid fa-file-pdf fa-8x text-danger card-img-top" style="height:10rem;text-align: center;padding:20px"></i>
-              <div class="card-body">
-                <h5 class="card-title" style="color:#39364e;margin-bottom: 15px;">7. Estatutos Fundación ProBarrancabermeja
-              </div>
-              <div class="card-footer card-footer-pro export"><a href='assets/documentacion/7. Estatutos Fundación ProBarrancabermeja.pdf' target='_blank' class='export-btn scrollto'>Descargar</a></div>
-            </div>
-          </div>
-
-          <div class="col-sm-3 mb-5">
-            <div class="card card-docs" style="height: 100%;" data-aos="fade-up" data-aos-delay="400">
-              <i class="fa-solid fa-file-pdf fa-8x text-danger card-img-top" style="height:10rem;text-align: center;padding:20px"></i>
-              <div class="card-body">
-                <h5 class="card-title" style="color:#39364e;margin-bottom: 15px;">8. Certificado de Existencia y Representación Legal ProBarrancabermeja 2023
-              </div>
-              <div class="card-footer card-footer-pro export"><a href='assets/documentacion/8. Certificado de Existencia y Representación Legal ProBarrancabermeja 2023.pdf' target='_blank' class='export-btn scrollto'>Descargar</a></div>
-            </div>
-          </div>
+          
 
         </div>
 

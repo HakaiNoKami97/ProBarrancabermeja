@@ -32,6 +32,7 @@
         <div class="row justify-content-center col-lg-12">
             <a href="verNoticias.php" target="__black" class="btn btn-primary" type="button"> EDITAR NOTICIAS</a>
             <a href="view_miembros.php" target="__black" class="btn btn-primary" type="button"> EDITAR MIEMBROS</a>
+            <a href="view_rte.php" target="__black" class="btn btn-primary" type="button"> EDITAR RTE</a>
             <a href="functions/destruirSesion.php" class="btn btn-danger" button="">CERRAR SESION </a>
         </div>
     </nav>
