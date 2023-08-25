@@ -1,3 +1,12 @@
+<?php
+    session_start();
+    $var1 =  $_SESSION['clave'];
+    $var1;
+    if ($var1 == NULL || $var1 = '') {
+        header('location:functions/destruirSesion.php');
+        die();
+    }
+?>
 <!DOCTYPE html>
 <html>
 <head>
