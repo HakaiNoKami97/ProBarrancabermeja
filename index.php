@@ -69,8 +69,7 @@ function limitar_cadena($cadena, $limite, $sufijo)
       </a>
     </div>
 
-  </section>
-  <!-- End Hero -->
+  </section><!-- End Hero -->
 
   <!-- ======= Featured Services Section ======= -->
   <section id="featured-services" class="featured-services">
