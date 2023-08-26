@@ -10,7 +10,6 @@ function limitar_cadena($cadena, $limite, $sufijo)
   return $cadena;
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="es-CO">
 
@@ -22,7 +21,7 @@ function limitar_cadena($cadena, $limite, $sufijo)
 <body>
   <?php include("nav-menu.php"); ?>
 
-  <!-- ======= Hero Section ======= -->
+<!-- ======= Hero Section ======= -->
   <section id="hero">
 
     <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
@@ -269,51 +268,72 @@ function limitar_cadena($cadena, $limite, $sufijo)
     </section>
 
     <?php include("php/includes/contacto.php"); ?>
-
-
-    <!-- ======= Gallery Section ======= -->
-    <section id="gallery" class="gallery">
-      <div class="container" data-aos="fade-up">
-
+  
+  <!-- ======= Gallery Section ======= -->
+  <section id="gallery" class="gallery">
+    <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>Nuestros Miembros</h2>
         </div>
-        <div class="row">
-          <?php
-          $servidor = "localhost";
-          $database = "pro_noticias";
-          $usuario = "technolo_pro";
-          $clave = "5}J6m4#ho(fJ";
-    
-          $con = mysqli_connect($servidor, $usuario, $clave, $database);
-    
-          if ($con->connect_error) {
-              die("Error al conectarse a la base de datos: " . $con->connect_error);
-          }
-    
-          $sql = "SELECT * FROM miembros_section";
-          $result = $con->query($sql);
-    
-          if ($result->num_rows > 0) {
-                  echo '<div class="owl-carousel gallery-carousel" data-aos="fade-up" data-interval="2000">';
-                  while ($row = $result->fetch_assoc()) {
-                    echo '<img src="' . $row['img_miembro'] . '" class="img-fluid" alt="">';
-                  }
-                  echo '</div>';
-          } else {
-                echo "<p>No hay miembros disponibles.</p>";
-          }
-          $con->close();
-          ?>
+        <div class="row" id="gallery-content">
         </div>
-      </div>
-    </section>
-    <!-- End Gallery Section -->
-
+    </div>
+  </section>
+  <!-- End Gallery Section -->
   </main><!-- End #main -->
-
   <?php include("footer.php"); ?>
   <?php include("php/includes/scripts.php"); ?>
+  <script>
+    // Carga el contenido de la sección "Hero" usando AJAX con jQuery
+    $.ajax({
+      url: "functions/load_hero_content.php",
+      method: "GET",
+      success: function(response) {
+        $("#hero-content").html(response);
+      },
+      error: function() {
+        console.error("Error al cargar el contenido del Hero.");
+      }
+    });
+    
+    
+    // Carga el contenido de la sección "Gallery" usando AJAX con jQuery
+    $.ajax({
+      url: "functions/load_gallery_content.php",
+      method: "GET",
+      success: function(response) {
+        $("#gallery-content").html(response);
+        $(".gallery-carousel").owlCarousel({
+            loop: true,
+            nav: false,
+            dots: true,
+            autoplay: true,
+            slideTransition: "linear",
+            autoplayTimeout: 4000,
+            autoplaySpeed: 4000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                768: {
+                    items: 3,
+                },
+                992: {
+                    items: 4,
+                },
+                1200: {
+                    items: 5,
+                },
+            },
+        });
+      },
+      error: function() {
+        console.error("Error al cargar el contenido de la galería.");
+      }
+    });
+  </script>
+  
 </body>
 
 </html>
