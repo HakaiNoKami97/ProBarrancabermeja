@@ -34,6 +34,7 @@
             <a href="view_miembros.php" target="__black" class="btn btn-primary" type="button"> EDITAR MIEMBROS</a>
             <a href="view_rte.php" target="__black" class="btn btn-primary" type="button"> EDITAR RTE</a>
             <a href="view_hero.php" target="__black" class="btn btn-primary" type="button"> EDITAR BANNER</a>
+            <a href="view_boletin.php" target="__black" class="btn btn-primary" type="button"> EDITAR BOLETIN</a>
             <a href="functions/destruirSesion.php" class="btn btn-danger" button="">CERRAR SESION </a>
         </div>
     </nav>

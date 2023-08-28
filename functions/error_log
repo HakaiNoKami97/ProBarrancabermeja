@@ -324,3 +324,25 @@ Stack trace:
 [28-Aug-2023 12:22:17 UTC] PHP Warning:  Undefined array key "titulo" in /home/probarrancaberme/public_html/functions/load_hero_content.php on line 29
 [28-Aug-2023 12:22:17 UTC] PHP Warning:  Undefined array key "titulo" in /home/probarrancaberme/public_html/functions/load_hero_content.php on line 29
 [28-Aug-2023 12:22:17 UTC] PHP Warning:  Undefined array key "titulo" in /home/probarrancaberme/public_html/functions/load_hero_content.php on line 29
+[28-Aug-2023 13:14:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/probarrancaberme/public_html/functions/add_hero.php:1) in /home/probarrancaberme/public_html/functions/add_hero.php on line 114
+[28-Aug-2023 14:54:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/probarrancaberme/public_html/functions/add_boletin.php:1) in /home/probarrancaberme/public_html/functions/add_boletin.php on line 180
+[28-Aug-2023 14:56:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/probarrancaberme/public_html/functions/add_boletin.php:1) in /home/probarrancaberme/public_html/functions/add_boletin.php on line 180
+[28-Aug-2023 14:56:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/probarrancaberme/public_html/functions/add_boletin.php:1) in /home/probarrancaberme/public_html/functions/add_boletin.php on line 180
+[28-Aug-2023 14:57:23 UTC] PHP Warning:  Trying to access array offset on value of type int in /home/probarrancaberme/public_html/functions/add_boletin.php on line 85
+[28-Aug-2023 14:57:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/probarrancaberme/public_html/functions/add_boletin.php on line 85
+[28-Aug-2023 14:57:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'nombre_rte' in 'field list' in /home/probarrancaberme/public_html/functions/add_boletin.php:146
+Stack trace:
+#0 /home/probarrancaberme/public_html/functions/add_boletin.php(146): mysqli->query('UPDATE boletin ...')
+#1 {main}
+  thrown in /home/probarrancaberme/public_html/functions/add_boletin.php on line 146
+[28-Aug-2023 14:59:28 UTC] PHP Warning:  Trying to access array offset on value of type int in /home/probarrancaberme/public_html/functions/add_boletin.php on line 85
+[28-Aug-2023 14:59:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/probarrancaberme/public_html/functions/add_boletin.php on line 85
+[28-Aug-2023 14:59:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/probarrancaberme/public_html/functions/add_boletin.php:1) in /home/probarrancaberme/public_html/functions/add_boletin.php on line 180
+[28-Aug-2023 14:59:51 UTC] PHP Warning:  Trying to access array offset on value of type int in /home/probarrancaberme/public_html/functions/add_boletin.php on line 85
+[28-Aug-2023 14:59:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/probarrancaberme/public_html/functions/add_boletin.php on line 85
+[28-Aug-2023 14:59:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/probarrancaberme/public_html/functions/add_boletin.php:1) in /home/probarrancaberme/public_html/functions/add_boletin.php on line 180
+[28-Aug-2023 15:00:23 UTC] PHP Warning:  Trying to access array offset on value of type int in /home/probarrancaberme/public_html/functions/add_boletin.php on line 85
+[28-Aug-2023 15:00:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/probarrancaberme/public_html/functions/add_boletin.php on line 85
+[28-Aug-2023 15:00:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/probarrancaberme/public_html/functions/add_boletin.php:1) in /home/probarrancaberme/public_html/functions/add_boletin.php on line 180
+[28-Aug-2023 15:00:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/probarrancaberme/public_html/functions/add_boletin.php:1) in /home/probarrancaberme/public_html/functions/add_boletin.php on line 180
+[28-Aug-2023 15:01:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/probarrancaberme/public_html/functions/add_boletin.php:1) in /home/probarrancaberme/public_html/functions/add_boletin.php on line 180

@@ -37,40 +37,44 @@ function limitar_cadena($cadena, $limite, $sufijo)
         <div class="section-title">
           <h2>Boletines</h2>
         </div>
-
+        <!--BOLETIN-->
         <div class="row">
+          <?php
+          $servidor = "localhost";
+          $database = "pro_noticias";
+          $usuario = "technolo_pro";
+          $clave = "5}J6m4#ho(fJ";
+    
+          $con = mysqli_connect($servidor, $usuario, $clave, $database);
+    
+          if ($con->connect_error) {
+              die("Error al conectarse a la base de datos: " . $con->connect_error);
+          }
+    
+          $sql = "SELECT * FROM boletin";
+          $result = $con->query($sql);
+    
+          if ($result->num_rows > 0) {
+              while ($row = $result->fetch_assoc()) {
+                  echo '<div class="col-sm-4 mb-4">';
+                  echo '<div class="card cursor-pointer" style="height: 100%;" onclick="window.location=\''. $row['archivoboletin'] .'\';">';
+                  echo '<img class="card-img-top" src="' . $row['imagenportada'] . '">';
+                  echo '<div class="card-body">';
+                  echo '<h4 class="card-title" style="color:#39364e;margin-bottom: 15px;">'. $row['tituloboletin'] .'</h4>';
+                  echo '</div>';
+                  echo '</div>';
+                  echo '</div>';
+              }
+          } else {
+              echo "<p>No hay miembros disponibles.</p>";
+          }
+    
+          $con->close();
+          ?>
 
-          <div class="col-sm-4 mb-4">
-            <div class="card cursor-pointer" style="height: 100%;" onclick="window.location='pdf/Boletín Informativo 01-2023 ProBarrancabermeja.pdf';">
-              <img class="card-img-top" src="assets/img/Probarrancabermeja_Portadas_3.png">
-
-              <div class="card-body">
-                <h4 class="card-title" style="color:#39364e;margin-bottom: 15px;">Boletín Informativo 01-2023 PROBARRANCABERMEJA</h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-4 mb-4">
-            <div class="card cursor-pointer" style="height: 100%;" onclick="window.location='pdf/Boletín informativo 002-2023 - ProBarrancabermeja.pdf';">
-              <img class="card-img-top" src="assets/img/Probarrancabermeja_Portadas_3.png">
-
-              <div class="card-body">
-                <h4 class="card-title" style="color:#39364e;margin-bottom: 15px;">Boletín informativo 002-2023 - ProBarrancabermeja</h4>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-sm-4 mb-4">
-            <div class="card cursor-pointer" style="height: 100%;" onclick="window.location='pdf/Boletín informativo 003-2023 - ProBarrancabermeja.pdf';">
-              <img class="card-img-top" src="assets/img/Probarrancabermeja_Portadas_3.png">
-
-              <div class="card-body">
-                <h4 class="card-title" style="color:#39364e;margin-bottom: 15px;">Boletín informativo 003-2023 - ProBarrancabermeja</h4>
-              </div>
-            </div>
-          </div>
 
         </div>
+        <!-- END BOLETIN-->
 
 
         <div class="section-title">
