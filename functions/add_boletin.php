@@ -81,7 +81,7 @@ if (isset($_POST['save'])) {
                 </script>";
         exit();
     }
-    // Verificar si se cargó una nueva imagen
+    // Verificar si se cargó una nueva imagen y archivo
     if ($_FILES['imagen']['error']['archivo']['error'] === UPLOAD_ERR_OK) {
         $imagen_nombre = $_FILES['imagen']['name'];
         $imagen_tmp = $_FILES['imagen']['tmp_name'];
