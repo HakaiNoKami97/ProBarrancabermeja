@@ -26,7 +26,7 @@ if ($result->num_rows > 0) {
         
         echo '<div class="' . $itemClasses . '" style="background-image: url(\'' . $row['image_url'] . '\');" onclick="window.location=\'' . $row['link_url'] . '\';">';
         echo '<div class="layer" style="display: flex; justify-content: center;">';
-        echo '<h2 style="position: absolute; top: 50%;">' . $row['titulo'] . '</h2>';
+        echo '<h2 style="position: absolute; top: 50%;">' . $row['title'] . '</h2>';
         echo '</div>';
         echo '</div>';
         
