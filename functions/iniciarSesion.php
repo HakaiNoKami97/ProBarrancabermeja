@@ -1,58 +1,51 @@
 <?php
 session_start();
 include_once 'conexion.php';
-// Obtengo los datos cargados en el formulario de login.
 
 if (isset($_POST['usuario'])) {
-
-
     $usuario = $_POST['usuario'];
     $clave = $_POST['clave'];
 
-    if (empty($usuario)) {
+    if (empty($usuario) || empty($clave)) {
         echo "
-    <div class='alert alert-info text-center alert-dismissible fade show' role='alert'>
-    <strong>Lo sentimos! El campo usuario esta vacio.
-    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
-    <span aria-hidden='true'>&times;</span>
-    </button>
-    </div>";
-        return false;
+        <div class='alert alert-info text-center alert-dismissible fade show' role='alert'>
+        <strong>Por favor, complete ambos campos.
+        <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+        <span aria-hidden='true'>&times;</span>
+        </button>
+        </div>";
+        exit();
     }
-    if (empty($clave)) {
-        echo "
-    <div class='alert alert-info text-center alert-dismissible fade show' role='alert'>
-    <strong>Lo sentimos! El campo contraseña esta vacio.
-    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
-    <span aria-hidden='true'>&times;</span>
-    </button>
-    </div>";
-        return false;
-    }
-    $consulta = mysqli_prepare($con, "SELECT * FROM usuarios WHERE nombre_usuario = ? AND clave_usuario = ? ");
-    mysqli_stmt_bind_param($consulta, "ss", $usuario, $clave);
+
+    $consulta = mysqli_prepare($con, "SELECT * FROM usuarios WHERE nombre_usuario = ?");
+    mysqli_stmt_bind_param($consulta, "s", $usuario);
     mysqli_stmt_execute($consulta);
     $result = mysqli_stmt_get_result($consulta);
     mysqli_stmt_close($consulta);
 
-
     if (mysqli_num_rows($result) > 0) {
-        // Guardo en la sesión del usuario.
-        $_SESSION['clave'] = $clave;
-        if (isset($_SESSION['clave'])) {
+        $row = mysqli_fetch_assoc($result);
+        if (password_verify($clave, $row['clave_usuario'])) {
+            $_SESSION['clave'] = $clave;
             echo 1;
         } else {
-            echo "";
+            echo "
+            <div class='alert alert-info text-center alert-dismissible fade show' role='alert'>
+            <strong>Lo sentimos! Sus datos son incorrectos.
+            <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+            <span aria-hidden='true'>&times;</span>
+            </button>
+            </div>";
         }
     } else {
         echo "
-    <div class='alert alert-info text-center alert-dismissible fade show' role='alert'>
-    <strong>Lo sentimos! sus datos son incorrectos.
-    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
-    <span aria-hidden='true'>&times;</span>
-    </button>
-    </div>";
-        return false;
+        <div class='alert alert-info text-center alert-dismissible fade show' role='alert'>
+        <strong>Lo sentimos! Sus datos son incorrectos.
+        <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+        <span aria-hidden='true'>&times;</span>
+        </button>
+        </div>";
     }
 }
 mysqli_close($con);
+?>
