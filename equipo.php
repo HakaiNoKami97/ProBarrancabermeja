@@ -99,7 +99,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
-                <img src="assets/img/equipo/equipo-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/equipo/miembropro1.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <h3>direccionejecutiva@probarrancabermeja.org</h3>
                 </div>
@@ -115,7 +115,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="200">
               <div class="member-img">
-                <img src="assets/img/equipo/equipo-2.jpg" class="img-fluid" alt="">
+                <img src="assets/img/equipo/miembropro2.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <h3>comunicaciones@probarrancabermeja.org</h3>
                 </div>
@@ -131,7 +131,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="member-img">
-                <img src="assets/img/equipo/IMG_1809.jpg" class="img-fluid" alt="">
+                <img src="assets/img/equipo/miembropro3.png" class="img-fluid" alt="">
                 <div class="social">
                   <h3>contacto@probarrancabermeja.org</h3>
                 </div>
@@ -147,7 +147,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="400">
               <div class="member-img">
-                <img src="assets/img/equipo/carla.png" class="img-fluid" alt="">
+                <img src="assets/img/equipo/miembropro4.png" class="img-fluid" alt="">
                 <div class="social">
                   <h3>Internacionalizacion@probarrancabermeja.org</h3>
                 </div>
