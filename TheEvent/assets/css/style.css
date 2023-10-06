@@ -147,12 +147,9 @@ h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
-}
-
-#header.header-scrolled,
-#header.header-inner {
-  background: rgba(6, 12, 34, 0.98);
-  height: 70px;
+  display: flex; /* Agregar display flex para alinear horizontalmente los elementos. */
+  justify-content: space-between; /* Para espaciar los elementos a los lados. */
+  align-items: center; /* Para alinear verticalmente los elementos. */
 }
 
 #header #logo h1 {
@@ -179,11 +176,16 @@ h6 {
   max-height: 100px;
 }
 
+#header #logo:last-child {
+  margin-left: auto; /* Aplicar margen izquierdo automático al último logotipo. */
+}
+
 @media (max-width: 992px) {
   #header #logo img {
     max-height: 30px;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Buy Tickets
@@ -700,7 +702,7 @@ h6 {
 #about a {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 40px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
@@ -1664,4 +1666,240 @@ h6 {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+
+/*--------------------------------------------------------------
+# About Invitados Especiales Section
+--------------------------------------------------------------*/
+#about_invitados_especiales {
+  padding: 60px;
+  background: url(../img/IMG_1478.jpg) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+#about_invitados_especiales:before {
+  content: "";
+  background: rgba(6, 12, 34, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+@media (min-width: 1024px) {
+  #about_invitados_especiales {
+    background-attachment: fixed;
+  }
+}
+
+#about_invitados_especiales .section-header h2,
+#about_invitados_especiales p {
+  color: #fff;
+}
+
+#about_invitados_especiales input {
+  background: #fff;
+  color: #060c22;
+  border: 0;
+  outline: none;
+  margin: 0;
+  padding: 9px 20px;
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+@media (min-width: 767px) {
+  #about_invitados_especiales input {
+    min-width: 400px;
+  }
+}
+
+#about_invitados_especiales a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  animation-delay: 0.8s;
+  border: 2px solid #f82249;
+  background: #f82249;
+}
+
+@media (max-width: 460px) {
+  #about_invitados_especiales a {
+    margin-top: 10px;
+  }
+}
+
+/*--------------------------------------------------------------
+# About Destino Inversion Section
+--------------------------------------------------------------*/
+#about_destino_inversion {
+  padding: 30px 0;
+}
+
+#about_destino_inversion .contact-info {
+  display: flex; /* Para que los elementos se muestren en una fila horizontal */
+  justify-content: space-between; /* Para distribuir los elementos de manera uniforme en la fila */
+  align-items: center; /* Para centrar verticalmente los elementos en la fila */
+  text-align: center;
+}
+
+#about_destino_inversion .contact-info i {
+  font-size: 48px;
+  color: #f82249;
+}
+
+#about_destino_inversion .contact-info h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #112363;
+}
+
+@media (max-width: 300px) {
+  #about_destino_inversion .contact-info {
+    flex-wrap: wrap; /* Para que los elementos se envuelvan si la pantalla es demasiado estrecha */
+  }
+
+  #about_destino_inversion .contact-info > div {
+    flex: 1; /* Para que los elementos se expandan y ocupen el espacio disponible en pantallas estrechas */
+    margin: 5px; /* Agrega un pequeño margen entre los elementos */
+  }
+}
+
+/*--------------------------------------------------------------
+# ¿Qienes Pueden Asistir Al BDI? Section
+--------------------------------------------------------------*/
+#pueden_asistir_al_bdi {
+  padding: 60px 0 60px 0;
+}
+
+#pueden_asistir_al_bdi .nav-tabs {
+  text-align: center;
+  margin: auto;
+  display: block;
+  border-bottom: 0;
+  margin-bottom: 30px;
+}
+
+#pueden_asistir_al_bdi .nav-tabs li {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+#pueden_asistir_al_bdi .nav-tabs a {
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  background-color: #0e1b4d;
+  color: #fff;
+  padding: 10px 100px;
+  font-size: 40px; /* Aumentar el tamaño de la fuente */
+}
+
+@media (max-width: 991px) {
+  #pueden_asistir_al_bdi .nav-tabs a {
+    padding: 8px 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  #pueden_asistir_al_bdi .nav-tabs a {
+    padding: 8px 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  #pueden_asistir_al_bdi .nav-tabs a {
+    padding: 8px 30px;
+  }
+}
+
+#pueden_asistir_al_bdi .nav-tabs a.active {
+  background-color: #f82249;
+  color: #fff;
+}
+
+#pueden_asistir_al_bdi .sub-heading {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0 auto 30px auto;
+}
+
+@media (min-width: 991px) {
+  #pueden_asistir_al_bdi .sub-heading {
+    width: 75%;
+  }
+}
+
+#pueden_asistir_al_bdi .tab-pane {
+  transition: ease-in-out 0.2s;
+}
+
+#pueden_asistir_al_bdi .schedule-item {
+  border-bottom: 1px solid #cad4f6;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: background-color ease-in-out 0.3s;
+}
+
+#pueden_asistir_al_bdi .schedule-item:hover {
+  background-color: #fff;
+}
+
+#pueden_asistir_al_bdi .schedule-item time {
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+#pueden_asistir_al_bdi .schedule-item .speaker {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+#pueden_asistir_al_bdi .schedule-item .speaker img {
+  height: 100%;
+  transform: translateX(-50%);
+  margin-left: 50%;
+  transition: all ease-in-out 0.3s;
+}
+
+#pueden_asistir_al_bdi .schedule-item h4 {
+  font-size: 40px; /* Aumentar el tamaño de la fuente */
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#pueden_asistir_al_bdi .schedule-item h4 span {
+  font-style: italic;
+  color: #19328e;
+  font-weight: normal;
+  font-size: 40px; /* Aumentar el tamaño de la fuente */
+}
+
+#pueden_asistir_al_bdi .schedule-item p {
+  font-style: italic;
+  color: #152b79;
+  margin-bottom: 0;
+}
+
+/* Aumentar el tamaño de los íconos */
+#pueden_asistir_al_bdi .schedule-item i {
+  font-size: 40px;
 }
