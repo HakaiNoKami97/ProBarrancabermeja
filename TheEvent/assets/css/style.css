@@ -150,6 +150,7 @@ h6 {
   display: flex; /* Agregar display flex para alinear horizontalmente los elementos. */
   justify-content: space-between; /* Para espaciar los elementos a los lados. */
   align-items: center; /* Para alinear verticalmente los elementos. */
+  background-color: #333; /* Cambiar el color de fondo del encabezado si es necesario. */
 }
 
 #header #logo h1 {
@@ -182,9 +183,16 @@ h6 {
 
 @media (max-width: 992px) {
   #header #logo img {
-    max-height: 30px;
+    max-height: 30px; /* Reducir el tamaño de la imagen del logo en pantallas más pequeñas. */
+  }
+  #header {
+    height: 60px; /* Reducir la altura del encabezado en pantallas más pequeñas si es necesario. */
+  }
+  #header #logo h1 {
+    font-size: 24px; /* Reducir el tamaño del texto en el logo en pantallas más pequeñas. */
   }
 }
+
 
 
 /*--------------------------------------------------------------
@@ -536,7 +544,7 @@ h6 {
 
 @media (max-width: 991px) {
   #hero h1 {
-    font-size: 34px;
+    font-size: 34px; /* Reducir el tamaño del título en pantallas más pequeñas. */
   }
 }
 
@@ -548,7 +556,7 @@ h6 {
 
 @media (max-width: 991px) {
   #hero p {
-    font-size: 16px;
+    font-size: 16px; /* Reducir el tamaño del texto en pantallas más pequeñas. */
   }
 }
 
@@ -881,6 +889,7 @@ h6 {
   font-size: 18px;
   font-style: italic;
   margin: 0 auto 30px auto;
+  width: 100%; /* Asegúrate de que la sub-heading ocupe todo el ancho en pantallas más pequeñas. */
 }
 
 @media (min-width: 991px) {
@@ -895,8 +904,7 @@ h6 {
 
 #schedule .schedule-item {
   border-bottom: 1px solid #cad4f6;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px 0; /* Simplificar el padding para evitar problemas de alineación. */
   transition: background-color ease-in-out 0.3s;
 }
 
@@ -1116,6 +1124,22 @@ h6 {
   }
 }
 
+@media (max-width: 991px) {
+  #gallery .swiper-pagination {
+    margin-top: 10px; /* Reducir el margen superior de la paginación en pantallas más pequeñas. */
+  }
+
+  #gallery .swiper-pagination .swiper-pagination-bullet {
+    width: 8px; /* Reducir el tamaño de los puntos de paginación en pantallas más pequeñas. */
+    height: 8px;
+  }
+
+  #gallery .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #f82249;
+    border: 1px solid #f82249; /* Resaltar el punto de paginación activo en pantallas más pequeñas. */
+  }
+}
+
 /*--------------------------------------------------------------
 # Sponsors Section
 --------------------------------------------------------------*/
@@ -1287,7 +1311,11 @@ h6 {
 
 @media (max-width: 460px) {
   #subscribe a {
-    margin-top: 10px;
+    margin-top: 10px; /* Ajustar el margen superior de los botones en pantallas más pequeñas. */
+  }
+  
+  #subscribe input {
+    min-width: 100%; /* Hacer que el campo de entrada ocupe todo el ancho disponible en pantallas más pequeñas. */
   }
 }
 
@@ -1414,11 +1442,10 @@ h6 {
 }
 
 @media (min-width: 768px) {
-
   #contact .contact-address,
   #contact .contact-phone,
   #contact .contact-email {
-    padding: 20px 0;
+    padding: 20px 0; /* Añadir relleno a los elementos en pantallas más grandes. */
   }
 }
 
@@ -1475,19 +1502,12 @@ h6 {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
+  padding: 10px 15px; /* Ajustar el espaciado en los campos de entrada y texto. */
 }
 
 #contact .php-email-form input:focus,
 #contact .php-email-form textarea:focus {
   border-color: #f82249;
-}
-
-#contact .php-email-form input {
-  padding: 10px 15px;
-}
-
-#contact .php-email-form textarea {
-  padding: 12px 15px;
 }
 
 #contact .php-email-form button[type=submit] {
@@ -1498,6 +1518,7 @@ h6 {
   transition: 0.4s;
   border-radius: 50px;
   cursor: pointer;
+  margin-top: 20px; /* Agregar margen superior para separar el botón en pantallas más pequeñas. */
 }
 
 #contact .php-email-form button[type=submit]:hover {
@@ -1508,7 +1529,6 @@ h6 {
   0% {
     transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(360deg);
   }
@@ -1733,12 +1753,7 @@ h6 {
   animation-delay: 0.8s;
   border: 2px solid #f82249;
   background: #f82249;
-}
-
-@media (max-width: 460px) {
-  #about_invitados_especiales a {
-    margin-top: 10px;
-  }
+  margin-top: 10px; /* Ajustar el margen superior de los botones en pantallas más pequeñas. */
 }
 
 /*--------------------------------------------------------------
@@ -1749,9 +1764,9 @@ h6 {
 }
 
 #about_destino_inversion .contact-info {
-  display: flex; /* Para que los elementos se muestren en una fila horizontal */
-  justify-content: space-between; /* Para distribuir los elementos de manera uniforme en la fila */
-  align-items: center; /* Para centrar verticalmente los elementos en la fila */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
 }
 
@@ -1769,17 +1784,18 @@ h6 {
 
 @media (max-width: 300px) {
   #about_destino_inversion .contact-info {
-    flex-wrap: wrap; /* Para que los elementos se envuelvan si la pantalla es demasiado estrecha */
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los elementos en pantallas estrechas */
   }
 
   #about_destino_inversion .contact-info > div {
-    flex: 1; /* Para que los elementos se expandan y ocupen el espacio disponible en pantallas estrechas */
+    flex: 0 0 100%; /* Ocupa todo el ancho disponible en pantallas estrechas */
     margin: 5px; /* Agrega un pequeño margen entre los elementos */
   }
 }
 
 /*--------------------------------------------------------------
-# ¿Qienes Pueden Asistir Al BDI? Section
+# ¿Quiénes Pueden Asistir Al BDI? Section
 --------------------------------------------------------------*/
 #pueden_asistir_al_bdi {
   padding: 60px 0 60px 0;
@@ -1805,7 +1821,7 @@ h6 {
   background-color: #0e1b4d;
   color: #fff;
   padding: 10px 100px;
-  font-size: 40px; /* Aumentar el tamaño de la fuente */
+  font-size: 36px; /* Aumentar el tamaño de la fuente */
 }
 
 @media (max-width: 991px) {
@@ -1881,7 +1897,7 @@ h6 {
 }
 
 #pueden_asistir_al_bdi .schedule-item h4 {
-  font-size: 40px; /* Aumentar el tamaño de la fuente */
+  font-size: 36px; /* Aumentar el tamaño de la fuente */
   font-weight: 600;
   margin-bottom: 5px;
 }
@@ -1890,7 +1906,7 @@ h6 {
   font-style: italic;
   color: #19328e;
   font-weight: normal;
-  font-size: 40px; /* Aumentar el tamaño de la fuente */
+  font-size: 36px; /* Aumentar el tamaño de la fuente */
 }
 
 #pueden_asistir_al_bdi .schedule-item p {
@@ -1899,7 +1915,6 @@ h6 {
   margin-bottom: 0;
 }
 
-/* Aumentar el tamaño de los íconos */
 #pueden_asistir_al_bdi .schedule-item i {
-  font-size: 40px;
+  font-size: 36px; /* Aumentar el tamaño de los íconos */
 }
