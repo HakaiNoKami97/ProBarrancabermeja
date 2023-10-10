@@ -123,13 +123,21 @@ h6 {
   margin-bottom: 10px;
 }
 
+.section-header h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
 .section-header p {
   text-align: center;
   padding: 0;
   margin: 0;
   font-size: 18px;
   font-weight: 500;
-  color: #9195a2;
+  color: #f82249;
 }
 
 .section-with-bg {
@@ -668,6 +676,7 @@ h6 {
   position: relative;
   color: #fff;
   padding: 60px 0 40px 0;
+  padding: 20px; /* Añade un espacio de relleno para separar el contenido del borde */
 }
 
 @media (min-width: 1024px) {
@@ -694,17 +703,29 @@ h6 {
 }
 
 #about h3 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
   color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border: 2px solid #f82249; /* Cambia el color del borde y el grosor según tus preferencias */
+  padding: 10px; /* Añade espacio entre el texto y el borde */
 }
 
 #about p {
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 20px;
   color: #fff;
+}
+
+#about .lugarfecha{
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border: 2px solid #cccc00; /* Cambia el color del borde y el grosor según tus preferencias */
+  padding: 10px; /* Añade espacio entre el texto y el borde */
 }
 
 #about a {
@@ -1545,7 +1566,7 @@ h6 {
 }
 
 #footer .footer-top {
-  background: #040919;
+  background: #ffff00;
   padding: 60px 0 30px 0;
 }
 
@@ -1604,7 +1625,7 @@ h6 {
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #fff;
+  color: #222636;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
