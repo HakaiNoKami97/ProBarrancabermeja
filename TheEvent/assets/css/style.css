@@ -708,7 +708,9 @@ h6 {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
+  transition: 0.5s;
   color: #fff;
+  animation-delay: 0.8s;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   border: 2px solid #f82249; /* Cambia el color del borde y el grosor según tus preferencias */
   padding: 10px; /* Añade espacio entre el texto y el borde */
@@ -724,9 +726,11 @@ h6 {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 20px;
+  transition: 0.5s;
   color: #fff;
+  animation-delay: 0.8s;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  border: 2px solid #cccc00; /* Cambia el color del borde y el grosor según tus preferencias */
+  border: 2px solid #ffff14; /* Cambia el color del borde y el grosor según tus preferencias */
   padding: 10px; /* Añade espacio entre el texto y el borde */
 }
 
