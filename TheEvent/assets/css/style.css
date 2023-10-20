@@ -63,6 +63,41 @@ h6 {
   background: #fff url("../img/preloader.svg") no-repeat center center;
 }
 
+/* CSS for iPhone SE and similar devices */
+@media (max-width: 320px) {
+  /* Adjust your styles here for iPhone SE */
+}
+
+/* CSS for iPhone XR, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+ */
+@media (max-width: 414px) {
+  /* Adjust your styles here for these devices */
+}
+
+/* CSS for Samsung Galaxy S20 Ultra */
+@media (max-width: 1440px) {
+  /* Adjust your styles here for Samsung Galaxy S20 Ultra */
+}
+
+/* CSS for iPad Air and iPad Mini */
+@media (max-width: 768px) {
+  /* Adjust your styles here for iPad Air and iPad Mini */
+}
+
+/* CSS for Surface Pro 7, Surface Duo, Galaxy Fold */
+@media (max-width: 1024px) {
+  /* Adjust your styles here for these devices */
+}
+
+/* CSS for Samsung Galaxy A51/71 */
+@media (max-width: 720px) {
+  /* Adjust your styles here for Samsung Galaxy A51/71 */
+}
+
+/* CSS for Nest Hub and Nest Hub Max */
+@media (max-width: 1280px) {
+  /* Adjust your styles here for Nest Hub and Nest Hub Max */
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -94,6 +129,104 @@ h6 {
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
+}
+
+/* CSS for iPhone SE */
+@media (max-width: 320px) {
+  .back-to-top {
+    right: 10px;
+    bottom: 10px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .back-to-top i {
+    font-size: 20px;
+  }
+}
+
+/* CSS for iPhone XR, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+ */
+@media (max-width: 414px) {
+  .back-to-top {
+    right: 15px;
+    bottom: 15px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .back-to-top i {
+    font-size: 28px;
+  }
+}
+
+/* CSS for Samsung Galaxy S20 Ultra */
+@media (max-width: 1440px) {
+  .back-to-top {
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .back-to-top i {
+    font-size: 36px;
+  }
+}
+
+/* CSS for iPad Air and iPad Mini */
+@media (max-width: 768px) {
+  .back-to-top {
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .back-to-top i {
+    font-size: 36px;
+  }
+}
+
+/* CSS for Surface Pro 7, Surface Duo, Galaxy Fold */
+@media (max-width: 1024px) {
+  .back-to-top {
+    right: 25px;
+    bottom: 25px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .back-to-top i {
+    font-size: 40px;
+  }
+}
+
+/* CSS for Samsung Galaxy A51/71 */
+@media (max-width: 720px) {
+  .back-to-top {
+    right: 15px;
+    bottom: 15px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .back-to-top i {
+    font-size: 28px;
+  }
+}
+
+/* CSS for Nest Hub and Nest Hub Max */
+@media (max-width: 1280px) {
+  .back-to-top {
+    right: 30px;
+    bottom: 30px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .back-to-top i {
+    font-size: 48px;
+  }
 }
 
 /* Sections Header
@@ -142,6 +275,60 @@ h6 {
 
 .section-with-bg {
   background-color: #f6f7fd;
+}
+
+/* CSS for iPhone SE */
+@media (max-width: 320px) {
+  .section-header h2 {
+    font-size: 24px;
+  }
+
+  .section-header h3 {
+    font-size: 20px;
+  }
+
+  .section-header p {
+    font-size: 16px;
+  }
+
+  .section-header {
+    margin-bottom: 40px;
+  }
+
+  .section-header::before {
+    width: 40px;
+    height: 3px;
+  }
+}
+
+/* CSS for iPhone XR, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+ */
+@media (max-width: 414px) {
+  /* Adjust styles for these devices */
+}
+
+/* CSS for Samsung Galaxy S20 Ultra */
+@media (max-width: 1440px) {
+  /* Adjust styles for Samsung Galaxy S20 Ultra */
+}
+
+/* CSS for iPad Air and iPad Mini */
+@media (max-width: 768px) {
+  /* Adjust styles for iPad Air and iPad Mini */
+}
+
+/* CSS for Surface Pro 7, Surface Duo, Galaxy Fold */
+@media (max-width: 1024px) {
+  /* Adjust styles for these devices */
+}
+
+/* CSS for Samsung Galaxy A51/71 */
+@media (max-width: 720px) {
+  /* Adjust styles for Samsung Galaxy A51/71 */
+}
+
+/* CSS for Nest Hub and Nest Hub Max */
+@media (max-width: 1280px) {
+  /* Adjust styles for Nest Hub and Nest Hub Max */
 }
 
 /*--------------------------------------------------------------
@@ -201,293 +388,49 @@ h6 {
   }
 }
 
+/* CSS for iPhone SE */
+@media (max-width: 320px) {
+  #header {
+    height: 60px;
+  }
 
+  #header #logo h1 {
+    font-size: 20px;
+  }
 
-/*--------------------------------------------------------------
-# Buy Tickets
---------------------------------------------------------------*/
-.buy-tickets {
-  color: #fff;
-  background: #f82249;
-  padding: 7px 22px;
-  margin: 0 0 0 15px;
-  border-radius: 50px;
-  border: 2px solid #f82249;
-  transition: all ease-in-out 0.3s;
-  font-weight: 500;
-  line-height: 1;
-  font-size: 13px;
-  white-space: nowrap;
-}
-
-.buy-tickets:hover {
-  background: none;
-  color: #fff;
-}
-
-.buy-tickets:focus {
-  color: #fff;
-}
-
-@media (max-width: 992px) {
-  .buy-tickets {
-    margin: 0 15px 0 0;
+  #header #logo img {
+    max-height: 20px;
   }
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/**
-* Desktop Navigation 
-*/
-.navbar {
-  padding: 0;
+/* CSS for iPhone XR, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+ */
+@media (max-width: 414px) {
+  /* Adjust styles for these devices */
 }
 
-.navbar ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  list-style: none;
-  align-items: center;
+/* CSS for Samsung Galaxy S20 Ultra */
+@media (max-width: 1440px) {
+  /* Adjust styles for Samsung Galaxy S20 Ultra */
 }
 
-.navbar li {
-  position: relative;
+/* CSS for iPad Air and iPad Mini */
+@media (max-width: 768px) {
+  /* Adjust styles for iPad Air and iPad Mini */
 }
 
-.navbar>ul>li {
-  white-space: nowrap;
-  padding: 10px 0 10px 12px;
+/* CSS for Surface Pro 7, Surface Duo, Galaxy Fold */
+@media (max-width: 1024px) {
+  /* Adjust styles for these devices */
 }
 
-.navbar a,
-.navbar a:focus {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: rgba(202, 206, 221, 0.8);
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-  white-space: nowrap;
-  transition: 0.3s;
-  position: relative;
-  padding: 6px 4px;
+/* CSS for Samsung Galaxy A51/71 */
+@media (max-width: 720px) {
+  /* Adjust styles for Samsung Galaxy A51/71 */
 }
 
-.navbar a i,
-.navbar a:focus i {
-  font-size: 12px;
-  line-height: 0;
-  margin-left: 5px;
-}
-
-.navbar>ul>li>a:before {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: -6px;
-  left: 0;
-  background-color: #f82249;
-  visibility: hidden;
-  transition: all 0.3s ease-in-out 0s;
-}
-
-.navbar a:hover:before,
-.navbar li:hover>a:before,
-.navbar .active:before {
-  visibility: visible;
-  width: 100%;
-}
-
-.navbar a:hover,
-.navbar .active,
-.navbar .active:focus,
-.navbar li:hover>a {
-  color: #fff;
-}
-
-.navbar .dropdown ul {
-  display: block;
-  position: absolute;
-  left: 12px;
-  top: calc(100% + 30px);
-  margin: 0;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 0;
-  visibility: hidden;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: 0.3s;
-}
-
-.navbar .dropdown ul li {
-  min-width: 200px;
-}
-
-.navbar .dropdown ul a {
-  padding: 10px 20px;
-  font-size: 14px;
-  text-transform: none;
-  color: #060c22;
-}
-
-.navbar .dropdown ul a i {
-  font-size: 12px;
-}
-
-.navbar .dropdown ul a:hover,
-.navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
-  color: #f82249;
-}
-
-.navbar .dropdown:hover>ul {
-  opacity: 1;
-  top: 100%;
-  visibility: visible;
-}
-
-.navbar .dropdown .dropdown ul {
-  top: 0;
-  left: calc(100% - 30px);
-  visibility: hidden;
-}
-
-.navbar .dropdown .dropdown:hover>ul {
-  opacity: 1;
-  top: 0;
-  left: 100%;
-  visibility: visible;
-}
-
-@media (max-width: 1366px) {
-  .navbar .dropdown .dropdown ul {
-    left: -90%;
-  }
-
-  .navbar .dropdown .dropdown:hover>ul {
-    left: -100%;
-  }
-}
-
-/**
-* Mobile Navigation 
-*/
-.mobile-nav-toggle {
-  color: #fff;
-  font-size: 28px;
-  cursor: pointer;
-  display: none;
-  line-height: 0;
-  transition: 0.5s;
-}
-
-@media (max-width: 991px) {
-  .mobile-nav-toggle {
-    display: block;
-  }
-
-  .navbar ul {
-    display: none;
-  }
-}
-
-.navbar-mobile {
-  position: fixed;
-  overflow: hidden;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
-  transition: 0.3s;
-  z-index: 999;
-}
-
-.navbar-mobile .mobile-nav-toggle {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-}
-
-.navbar-mobile ul {
-  display: block;
-  position: absolute;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  padding: 10px 0;
-  background-color: #fff;
-  overflow-y: auto;
-  transition: 0.3s;
-}
-
-.navbar-mobile>ul>li {
-  padding: 0;
-}
-
-.navbar-mobile a:hover:before,
-.navbar-mobile li:hover>a:before,
-.navbar-mobile .active:before {
-  visibility: hidden;
-}
-
-.navbar-mobile a,
-.navbar-mobile a:focus {
-  padding: 10px 20px;
-  font-size: 15px;
-  color: #060c22;
-}
-
-.navbar-mobile a:hover,
-.navbar-mobile .active,
-.navbar-mobile li:hover>a {
-  color: #f82249;
-}
-
-.navbar-mobile .getstarted,
-.navbar-mobile .getstarted:focus {
-  margin: 15px;
-}
-
-.navbar-mobile .dropdown ul {
-  position: static;
-  display: none;
-  margin: 10px 20px;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 1;
-  visibility: visible;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-}
-
-.navbar-mobile .dropdown ul li {
-  min-width: 200px;
-}
-
-.navbar-mobile .dropdown ul a {
-  padding: 10px 20px;
-}
-
-.navbar-mobile .dropdown ul a i {
-  font-size: 12px;
-}
-
-.navbar-mobile .dropdown ul a:hover,
-.navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
-  color: #f82249;
-}
-
-.navbar-mobile .dropdown>.dropdown-active {
-  display: block;
+/* CSS for Nest Hub and Nest Hub Max */
+@media (max-width: 1280px) {
+  /* Adjust styles for Nest Hub and Nest Hub Max */
 }
 
 /*--------------------------------------------------------------
@@ -666,6 +609,57 @@ h6 {
   }
 }
 
+/* CSS for iPhone SE */
+@media (max-width: 320px) {
+  #hero h1 {
+    font-size: 28px; /* Reduce the title font size */
+  }
+
+  #hero p {
+    font-size: 16px; /* Reduce the text font size */
+  }
+
+  #hero .play-btn {
+    width: 60px;
+    height: 60px;
+  }
+
+  #hero .about-btn {
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+}
+
+/* CSS for iPhone XR, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+ */
+@media (max-width: 414px) {
+  /* Adjust styles for these devices */
+}
+
+/* CSS for Samsung Galaxy S20 Ultra */
+@media (max-width: 1440px) {
+  /* Adjust styles for Samsung Galaxy S20 Ultra */
+}
+
+/* CSS for iPad Air and iPad Mini */
+@media (max-width: 768px) {
+  /* Adjust styles for iPad Air and iPad Mini */
+}
+
+/* CSS for Surface Pro 7, Surface Duo, Galaxy Fold */
+@media (max-width: 1024px) {
+  /* Adjust styles for these devices */
+}
+
+/* CSS for Samsung Galaxy A51/71 */
+@media (max-width: 720px) {
+  /* Adjust styles for Samsung Galaxy A51/71 */
+}
+
+/* CSS for Nest Hub and Nest Hub Max */
+@media (max-width: 1280px) {
+  /* Adjust styles for Nest Hub and Nest Hub Max */
+}
+
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
@@ -766,6 +760,62 @@ h6 {
 #about .lugarfecha:hover {
   background: #cccc00;
   color: #fff;
+}
+
+/* CSS for iPhone SE */
+@media (max-width: 320px) {
+  #about h2 {
+    font-size: 28px;
+  }
+
+  #about h3 {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  #about p {
+    font-size: 14px;
+  }
+
+  #about .lugarfecha {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  #about a {
+    font-size: 20px;
+    padding: 8px 20px;
+  }
+}
+
+/* CSS for iPhone XR, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+ */
+@media (max-width: 414px) {
+  /* Adjust styles for these devices */
+}
+
+/* CSS for Samsung Galaxy S20 Ultra */
+@media (max-width: 1440px) {
+  /* Adjust styles for Samsung Galaxy S20 Ultra */
+}
+
+/* CSS for iPad Air and iPad Mini */
+@media (max-width: 768px) {
+  /* Adjust styles for iPad Air and iPad Mini */
+}
+
+/* CSS for Surface Pro 7, Surface Duo, Galaxy Fold */
+@media (max-width: 1024px) {
+  /* Adjust styles for these devices */
+}
+
+/* CSS for Samsung Galaxy A51/71 */
+@media (max-width: 720px) {
+  /* Adjust styles for Samsung Galaxy A51/71 */
+}
+
+/* CSS for Nest Hub and Nest Hub Max */
+@media (max-width: 1280px) {
+  /* Adjust styles for Nest Hub and Nest Hub Max */
 }
 
 /*--------------------------------------------------------------
@@ -870,6 +920,47 @@ h6 {
   color: #112363;
   font-size: 15px;
   margin-bottom: 10px;
+}
+
+/* CSS for iPhone SE */
+@media (max-width: 320px) {
+  #speakers .speaker .details h3 {
+    font-size: 18px;
+  }
+
+  #speakers .speaker .details p {
+    font-size: 12px;
+  }
+}
+
+/* CSS for iPhone XR, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+ */
+@media (max-width: 414px) {
+  /* Adjust styles for these devices */
+}
+
+/* CSS for Samsung Galaxy S20 Ultra */
+@media (max-width: 1440px) {
+  /* Adjust styles for Samsung Galaxy S20 Ultra */
+}
+
+/* CSS for iPad Air and iPad Mini */
+@media (max-width: 768px) {
+  /* Adjust styles for iPad Air and iPad Mini */
+}
+
+/* CSS for Surface Pro 7, Surface Duo, Galaxy Fold */
+@media (max-width: 1024px) {
+  /* Adjust styles for these devices */
+}
+
+/* CSS for Samsung Galaxy A51/71 */
+@media (max-width: 720px) {
+  /* Adjust styles for Samsung Galaxy A51/71 */
+}
+
+/* CSS for Nest Hub and Nest Hub Max */
+@media (max-width: 1280px) {
+  /* Adjust styles for Nest Hub and Nest Hub Max */
 }
 
 /*--------------------------------------------------------------
@@ -992,132 +1083,95 @@ h6 {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Venue Section
---------------------------------------------------------------*/
-#venue {
-  padding: 60px 0;
-}
+/* CSS for iPhone SE */
+@media (max-width: 320px) {
+  #schedule .nav-tabs a {
+    padding: 8px 60px;
+  }
 
-#venue .container-fluid {
-  margin-bottom: 3px;
-}
+  #schedule .nav-tabs a.active {
+    padding: 8px 60px;
+  }
 
-#venue .venue-map iframe {
-  width: 100%;
-  height: 100%;
-  min-height: 300px;
-}
+  #schedule .sub-heading {
+    font-size: 16px;
+    width: 90%;
+  }
 
-#venue .venue-info {
-  background: url("../img/IMG_0563.jpg") top center no-repeat;
-  background-size: cover;
-  position: relative;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
+  #schedule .schedule-item .speaker {
+    width: 40px;
+    height: 40px;
+  }
 
-#venue .venue-info:before {
-  content: "";
-  background: rgba(13, 20, 41, 0.8);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
+  #schedule .schedule-item h4 {
+    font-size: 16px;
+  }
 
-#venue .venue-info h3 {
-  font-size: 36px;
-  font-weight: 700;
-  color: #fff;
-}
+  #schedule .schedule-item h4 span {
+    font-size: 14px;
+  }
 
-@media (max-width: 574px) {
-  #venue .venue-info h3 {
-    font-size: 24px;
+  #schedule .schedule-item p {
+    font-size: 14px;
   }
 }
 
-#venue .venue-info p {
-  color: #fff;
-  margin-bottom: 0;
+/* CSS for iPhone XR, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+ */
+@media (max-width: 414px) {
+  /* Adjust styles for these devices */
 }
 
-#venue .venue-gallery-container {
-  padding-right: 12px;
+/* CSS for Samsung Galaxy S20 Ultra */
+@media (max-width: 1440px) {
+  /* Adjust styles for Samsung Galaxy S20 Ultra */
 }
 
-#venue .venue-gallery {
-  overflow: hidden;
-  border-right: 3px solid #fff;
-  border-bottom: 3px solid #fff;
+/* CSS for iPad Air and iPad Mini */
+@media (max-width: 768px) {
+  #schedule .nav-tabs a {
+    padding: 8px 50px;
+  }
+
+  #schedule .nav-tabs a.active {
+    padding: 8px 50px;
+  }
+
+  #schedule .sub-heading {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  #schedule .schedule-item .speaker {
+    width: 40px;
+    height: 40px;
+  }
+
+  #schedule .schedule-item h4 {
+    font-size: 16px;
+  }
+
+  #schedule .schedule-item h4 span {
+    font-size: 14px;
+  }
+
+  #schedule .schedule-item p {
+    font-size: 14px;
+  }
 }
 
-#venue .venue-gallery img {
-  transition: all ease-in-out 0.4s;
+/* CSS for Surface Pro 7, Surface Duo, Galaxy Fold */
+@media (max-width: 1024px) {
+  /* Adjust styles for these devices */
 }
 
-#venue .venue-gallery:hover img {
-  transform: scale(1.1);
+/* CSS for Samsung Galaxy A51/71 */
+@media (max-width: 720px) {
+  /* Adjust styles for Samsung Galaxy A51/71 */
 }
 
-/*--------------------------------------------------------------
-# Hotels Section
---------------------------------------------------------------*/
-#hotels {
-  padding: 60px 0;
-}
-
-#hotels .hotel {
-  border: 1px solid #e0e5fa;
-  background: #fff;
-  margin-bottom: 30px;
-}
-
-#hotels .hotel:hover .hotel-img img {
-  transform: scale(1.1);
-}
-
-#hotels .hotel-img {
-  overflow: hidden;
-  margin-bottom: 15px;
-}
-
-#hotels .hotel-img img {
-  transition: 0.3s ease-in-out;
-}
-
-#hotels h3 {
-  font-weight: 600;
-  font-size: 20px;
-  margin-bottom: 5px;
-  padding: 0 20px;
-}
-
-#hotels a {
-  color: #152b79;
-}
-
-#hotels a:hover {
-  color: #f82249;
-}
-
-#hotels .stars {
-  padding: 0 20px;
-  margin-bottom: 5px;
-}
-
-#hotels .stars i {
-  color: rgb(255, 195, 29);
-}
-
-#hotels p {
-  padding: 0 20px;
-  margin-bottom: 20px;
-  color: #060c22;
-  font-style: italic;
-  font-size: 15px;
+/* CSS for Nest Hub and Nest Hub Max */
+@media (max-width: 1280px) {
+  /* Adjust styles for Nest Hub and Nest Hub Max */
 }
 
 /*--------------------------------------------------------------
@@ -1180,6 +1234,63 @@ h6 {
   }
 }
 
+/* CSS for iPhone SE */
+@media (max-width: 320px) {
+  #gallery .swiper-pagination {
+    margin-top: 10px;
+  }
+
+  #gallery .swiper-pagination .swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+  }
+
+  #gallery .swiper-pagination .swiper-pagination-bullet-active {
+    border: 1px solid #f82249;
+  }
+}
+
+/* CSS for iPhone XR, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+ */
+@media (max-width: 414px) {
+  /* Adjust styles for these devices */
+}
+
+/* CSS for Samsung Galaxy S20 Ultra */
+@media (max-width: 1440px) {
+  /* Adjust styles for Samsung Galaxy S20 Ultra */
+}
+
+/* CSS for iPad Air and iPad Mini */
+@media (max-width: 768px) {
+  /* Adjust styles for iPad Air and iPad Mini */
+}
+
+/* CSS for Surface Pro 7, Surface Duo, Galaxy Fold */
+@media (max-width: 1024px) {
+  #gallery .swiper-pagination {
+    margin-top: 15px;
+  }
+
+  #gallery .swiper-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
+
+  #gallery .swiper-pagination .swiper-pagination-bullet-active {
+    border: 1px solid #f82249;
+  }
+}
+
+/* CSS for Samsung Galaxy A51/71 */
+@media (max-width: 720px) {
+  /* Adjust styles for Samsung Galaxy A51/71 */
+}
+
+/* CSS for Nest Hub and Nest Hub Max */
+@media (max-width: 1280px) {
+  /* Adjust styles for Nest Hub and Nest Hub Max */
+}
+
 /*--------------------------------------------------------------
 # Sponsors Section
 --------------------------------------------------------------*/
@@ -1213,69 +1324,53 @@ h6 {
   transition: all 0.4s ease-in-out;
 }
 
-/*--------------------------------------------------------------
-# F.A.Q Section
---------------------------------------------------------------*/
-#faq {
-  padding: 60px 0;
+/* CSS for iPhone SE */
+@media (max-width: 320px) {
+  #supporters .supporter-logo {
+    padding: 15px;
+    height: 100px;
+  }
+
+  #supporters .supporters-wrap {
+    margin-bottom: 20px;
+  }
 }
 
-#faq .faq-list {
-  padding: 0;
-  list-style: none;
+/* CSS for iPhone XR, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+ */
+@media (max-width: 414px) {
+  /* Adjust styles for these devices */
 }
 
-#faq .faq-list li {
-  border-bottom: 1px solid #e9eaed;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+/* CSS for Samsung Galaxy S20 Ultra */
+@media (max-width: 1440px) {
+  /* Adjust styles for Samsung Galaxy S20 Ultra */
 }
 
-#faq .faq-list .question {
-  display: block;
-  position: relative;
-  font-family: #f82249;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 400;
-  padding-left: 25px;
-  cursor: pointer;
-  color: #e0072f;
-  transition: 0.3s;
+/* CSS for iPad Air and iPad Mini */
+@media (max-width: 768px) {
+  #supporters .supporter-logo {
+    padding: 20px;
+    height: 130px;
+  }
+
+  #supporters .supporters-wrap {
+    margin-bottom: 25px;
+  }
 }
 
-#faq .faq-list i {
-  font-size: 16px;
-  position: absolute;
-  left: 0;
-  top: -2px;
+/* CSS for Surface Pro 7, Surface Duo, Galaxy Fold */
+@media (max-width: 1024px) {
+  /* Adjust styles for these devices */
 }
 
-#faq .faq-list p {
-  margin-bottom: 0;
-  padding: 10px 0 0 25px;
+/* CSS for Samsung Galaxy A51/71 */
+@media (max-width: 720px) {
+  /* Adjust styles for Samsung Galaxy A51/71 */
 }
 
-#faq .faq-list .icon-show {
-  display: none;
-}
-
-#faq .faq-list .collapsed {
-  color: black;
-}
-
-#faq .faq-list .collapsed:hover {
-  color: #f82249;
-}
-
-#faq .faq-list .collapsed .icon-show {
-  display: inline-block;
-  transition: 0.6s;
-}
-
-#faq .faq-list .collapsed .icon-close {
-  display: none;
-  transition: 0.6s;
+/* CSS for Nest Hub and Nest Hub Max */
+@media (max-width: 1280px) {
+  /* Adjust styles for Nest Hub and Nest Hub Max */
 }
 
 /*--------------------------------------------------------------
@@ -1359,79 +1454,61 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Buy Tickets Section
---------------------------------------------------------------*/
-#buy-tickets {
-  padding: 60px 0;
+/* CSS for iPhone SE */
+@media (max-width: 320px) {
+  #subscribe {
+    padding: 30px;
+  }
+
+  #subscribe input {
+    font-size: 12px;
+    padding: 6px 15px;
+  }
 }
 
-#buy-tickets .card {
-  border: none;
-  border-radius: 5px;
-  transition: all 0.3s ease-in-out;
-  box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
+/* CSS for iPhone XR, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+ */
+@media (max-width: 414px) {
+  /* Adjust styles for these devices */
 }
 
-#buy-tickets .card:hover {
-  box-shadow: 0 10px 35px 0 rgba(6, 12, 34, 0.2);
+/* CSS for Samsung Galaxy S20 Ultra */
+@media (max-width: 1440px) {
+  /* Adjust styles for Samsung Galaxy S20 Ultra */
 }
 
-#buy-tickets .card hr {
-  margin: 25px 0;
+/* CSS for iPad Air and iPad Mini */
+@media (max-width: 768px) {
+  #subscribe {
+    padding: 40px;
+  }
+
+  #subscribe input {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
 }
 
-#buy-tickets .card .card-title {
-  margin: 10px 0;
-  font-size: 14px;
-  letter-spacing: 1px;
-  font-weight: bold;
+/* CSS for Surface Pro 7, Surface Duo, Galaxy Fold */
+@media (max-width: 1024px) {
+  /* Adjust styles for these devices */
 }
 
-#buy-tickets .card .card-price {
-  font-size: 48px;
-  margin: 0;
+/* CSS for Samsung Galaxy A51/71 */
+@media (max-width: 720px) {
+  /* Adjust styles for Samsung Galaxy A51/71 */
 }
 
-#buy-tickets .card ul li {
-  margin-bottom: 20px;
-}
-
-#buy-tickets .card .text-muted {
-  opacity: 0.7;
-}
-
-#buy-tickets .card .btn {
-  font-size: 15px;
-  border-radius: 50px;
-  padding: 10px 40px;
-  transition: all 0.2s;
-  background-color: #f82249;
-  border: 0;
-  color: #fff;
-}
-
-#buy-tickets .card .btn:hover {
-  background-color: #e0072f;
-}
-
-#buy-tickets #buy-ticket-modal input,
-#buy-tickets #buy-ticket-modal select {
-  border-radius: 0;
-}
-
-#buy-tickets #buy-ticket-modal .btn {
-  font-size: 15px;
-  border-radius: 50px;
-  padding: 10px 40px;
-  transition: all 0.2s;
-  background-color: #f82249;
-  border: 0;
-  color: #fff;
-}
-
-#buy-tickets #buy-ticket-modal .btn:hover {
-  background-color: #e0072f;
+/* CSS for Nest Hub and Nest Hub Max */
+@media (max-width: 1280px) {
+  /* Adjust styles for Nest Hub and Nest Hub Max */
+  
+  #subscribe a {
+    margin-top: 10px;
+  }
+  
+  #subscribe input {
+    width: 100%;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1559,6 +1636,91 @@ h6 {
   border-radius: 50px;
   cursor: pointer;
   margin-top: 20px; /* Agregar margen superior para separar el botón en pantallas más pequeñas. */
+}
+
+#contact .php-email-form button[type=submit]:hover {
+  background: #e0072f;
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* CSS for iPhone SE */
+@media (max-width: 320px) {
+  #contact {
+    padding: 30px 0;
+  }
+
+  #contact .contact-info i {
+    font-size: 36px;
+    margin-bottom: 5px;
+  }
+
+  #contact .php-email-form input,
+  #contact .php-email-form textarea {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+
+  #contact .php-email-form button[type=submit] {
+    padding: 8px 30px;
+    margin-top: 10px;
+  }
+}
+
+/* CSS for iPhone XR, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+ */
+@media (max-width: 414px) {
+  /* Adjust styles for these devices */
+}
+
+/* CSS for Samsung Galaxy S20 Ultra */
+@media (max-width: 1440px) {
+  /* Adjust styles for Samsung Galaxy S20 Ultra */
+}
+
+/* CSS for iPad Air and iPad Mini */
+@media (max-width: 768px) {
+  #contact .contact-info i {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  #contact .php-email-form input,
+  #contact .php-email-form textarea {
+    padding: 8px 15px;
+  }
+}
+
+/* CSS for Surface Pro 7, Surface Duo, Galaxy Fold */
+@media (max-width: 1024px) {
+  /* Adjust styles for these devices */
+}
+
+/* CSS for Samsung Galaxy A51/71 */
+@media (max-width: 720px) {
+  /* Adjust styles for Samsung Galaxy A51/71 */
+}
+
+/* CSS for Nest Hub and Nest Hub Max */
+@media (max-width: 1280px) {
+  /* Adjust styles for Nest Hub and Nest Hub Max */
+}
+
+/* General CSS for all devices */
+#contact .php-email-form button[type=submit] {
+  background: #f82249;
+  border: 0;
+  padding: 10px 40px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  cursor: pointer;
 }
 
 #contact .php-email-form button[type=submit]:hover {
@@ -1728,6 +1890,124 @@ h6 {
   color: #ddd;
 }
 
+/* Footer CSS for iPhone SE */
+@media (max-width: 320px) {
+  #footer .footer-top .footer-info h3 {
+    font-size: 20px;
+  }
+
+  #footer .footer-top .footer-info img {
+    height: 80px;
+  }
+
+  #footer .footer-top .footer-info p {
+    font-size: 12px;
+  }
+
+  #footer .footer-top .social-links a {
+    width: 30px;
+    height: 30px;
+  }
+
+  #footer .footer-top .social-links a i {
+    font-size: 14px;
+  }
+
+  #footer .footer-top h4 {
+    font-size: 12px;
+  }
+
+  #footer .footer-top .footer-links ul i {
+    font-size: 16px;
+  }
+
+  #footer .footer-top .footer-links ul li {
+    padding: 8px 0;
+  }
+
+  #footer .footer-top .footer-contact p {
+    font-size: 12px;
+  }
+}
+
+/* Footer CSS for iPhone XR, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+ */
+@media (max-width: 414px) {
+  /* Adjust styles for these devices */
+}
+
+/* Footer CSS for Samsung Galaxy S20 Ultra */
+@media (max-width: 1440px) {
+  /* Adjust styles for Samsung Galaxy S20 Ultra */
+}
+
+/* Footer CSS for iPad Air and iPad Mini */
+@media (max-width: 768px) {
+  #footer .footer-top .footer-info h3 {
+    font-size: 20px;
+  }
+
+  #footer .footer-top .footer-info img {
+    height: 80px;
+  }
+
+  #footer .footer-top .footer-info p {
+    font-size: 12px;
+  }
+
+  #footer .footer-top .social-links a {
+    width: 30px;
+    height: 30px;
+  }
+
+  #footer .footer-top .social-links a i {
+    font-size: 14px;
+  }
+
+  #footer .footer-top h4 {
+    font-size: 12px;
+  }
+
+  #footer .footer-top .footer-links ul i {
+    font-size: 16px;
+  }
+
+  #footer .footer-top .footer-links ul li {
+    padding: 8px 0;
+  }
+
+  #footer .footer-top .footer-contact p {
+    font-size: 12px;
+  }
+}
+
+/* Footer CSS for Surface Pro 7, Surface Duo, Galaxy Fold */
+@media (max-width: 1024px) {
+  /* Adjust styles for these devices */
+}
+
+/* Footer CSS for Samsung Galaxy A51/71 */
+@media (max-width: 720px) {
+  /* Adjust styles for Samsung Galaxy A51/71 */
+}
+
+/* Footer CSS for Nest Hub and Nest Hub Max */
+@media (max-width: 1280px) {
+  /* Adjust styles for Nest Hub and Nest Hub Max */
+}
+
+/* General CSS for all devices */
+#footer .footer-top .footer-newsletter input[type=email] {
+  width: 60%;
+}
+
+#footer .footer-top .footer-newsletter input[type=submit] {
+  width: 40%;
+}
+
+#footer .footer-top .footer-newsletter input[type=submit]:hover {
+  background: #e0072f;
+}
+
 /*--------------------------------------------------------------
 # About Invitados Especiales Section
 --------------------------------------------------------------*/
@@ -1796,6 +2076,72 @@ h6 {
   margin-top: 10px; /* Ajustar el margen superior de los botones en pantallas más pequeñas. */
 }
 
+/* About Invitados Especiales CSS for iPhone SE */
+@media (max-width: 320px) {
+  #about_invitados_especiales {
+    padding: 40px 0;
+  }
+
+  #about_invitados_especiales .section-header h2 {
+    font-size: 22px;
+  }
+
+  #about_invitados_especiales input {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  #about_invitados_especiales a {
+    font-size: 12px;
+  }
+}
+
+/* About Invitados Especiales CSS for iPhone XR, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+ */
+@media (max-width: 414px) {
+  /* Adjust styles for these devices */
+}
+
+/* About Invitados Especiales CSS for Samsung Galaxy S20 Ultra */
+@media (max-width: 1440px) {
+  /* Adjust styles for Samsung Galaxy S20 Ultra */
+}
+
+/* About Invitados Especiales CSS for iPad Air and iPad Mini */
+@media (max-width: 768px) {
+  #about_invitados_especiales {
+    padding: 40px 0;
+  }
+
+  #about_invitados_especiales .section-header h2 {
+    font-size: 22px;
+  }
+
+  #about_invitados_especiales input {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  #about_invitados_especiales a {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+}
+
+/* About Invitados Especiales CSS for Surface Pro 7, Surface Duo, Galaxy Fold */
+@media (max-width: 1024px) {
+  /* Adjust styles for these devices */
+}
+
+/* About Invitados Especiales CSS for Samsung Galaxy A51/71 */
+@media (max-width: 720px) {
+  /* Adjust styles for Samsung Galaxy A51/71 */
+}
+
+/* About Invitados Especiales CSS for Nest Hub and Nest Hub Max */
+@media (max-width: 1280px) {
+  /* Adjust styles for Nest Hub and Nest Hub Max */
+}
+
 /*--------------------------------------------------------------
 # About Destino Inversion Section
 --------------------------------------------------------------*/
@@ -1832,6 +2178,73 @@ h6 {
     flex: 0 0 100%; /* Ocupa todo el ancho disponible en pantallas estrechas */
     margin: 5px; /* Agrega un pequeño margen entre los elementos */
   }
+}
+
+/* About Destino Inversion CSS for iPhone SE */
+@media (max-width: 320px) {
+  #about_destino_inversion .contact-info {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #about_destino_inversion .contact-info > div {
+    flex: 0 0 100%;
+    margin: 5px;
+  }
+
+  #about_destino_inversion .contact-info i {
+    font-size: 36px;
+  }
+
+  #about_destino_inversion .contact-info h3 {
+    font-size: 16px;
+  }
+}
+
+/* About Destino Inversion CSS for iPhone XR, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+ */
+@media (max-width: 414px) {
+  /* Adjust styles for these devices */
+}
+
+/* About Destino Inversion CSS for Samsung Galaxy S20 Ultra */
+@media (max-width: 1440px) {
+  /* Adjust styles for Samsung Galaxy S20 Ultra */
+}
+
+/* About Destino Inversion CSS for iPad Air and iPad Mini */
+@media (max-width: 768px) {
+  #about_destino_inversion .contact-info {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #about_destino_inversion .contact-info > div {
+    flex: 0 0 100%;
+    margin: 5px;
+  }
+
+  #about_destino_inversion .contact-info i {
+    font-size: 36px;
+  }
+
+  #about_destino_inversion .contact-info h3 {
+    font-size: 16px;
+  }
+}
+
+/* About Destino Inversion CSS for Surface Pro 7, Surface Duo, Galaxy Fold */
+@media (max-width: 1024px) {
+  /* Adjust styles for these devices */
+}
+
+/* About Destino Inversion CSS for Samsung Galaxy A51/71 */
+@media (max-width: 720px) {
+  /* Adjust styles for Samsung Galaxy A51/71 */
+}
+
+/* About Destino Inversion CSS for Nest Hub and Nest Hub Max */
+@media (max-width: 1280px) {
+  /* Adjust styles for Nest Hub and Nest Hub Max */
 }
 
 /*--------------------------------------------------------------
@@ -1957,4 +2370,57 @@ h6 {
 
 #pueden_asistir_al_bdi .schedule-item i {
   font-size: 36px; /* Aumentar el tamaño de los íconos */
+}
+
+/* ¿Quiénes Pueden Asistir Al BDI? CSS for iPhone SE */
+@media (max-width: 320px) {
+  #pueden_asistir_al_bdi .nav-tabs a {
+    font-size: 24px;
+    padding: 8px 40px;
+  }
+
+  #pueden_asistir_al_bdi .schedule-item h4,
+  #pueden_asistir_al_bdi .schedule-item h4 span,
+  #pueden_asistir_al_bdi .schedule-item i {
+    font-size: 24px;
+  }
+}
+
+/* ¿Quiénes Pueden Asistir Al BDI? CSS for iPhone XR, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+ */
+@media (max-width: 414px) {
+  /* Adjust styles for these devices */
+}
+
+/* ¿Quiénes Pueden Asistir Al BDI? CSS for Samsung Galaxy S20 Ultra */
+@media (max-width: 1440px) {
+  /* Adjust styles for Samsung Galaxy S20 Ultra */
+}
+
+/* ¿Quiénes Pueden Asistir Al BDI? CSS for iPad Air and iPad Mini */
+@media (max-width: 768px) {
+  #pueden_asistir_al_bdi .nav-tabs a {
+    font-size: 24px;
+    padding: 8px 40px;
+  }
+
+  #pueden_asistir_al_bdi .schedule-item h4,
+  #pueden_asistir_al_bdi .schedule-item h4 span,
+  #pueden_asistir_al_bdi .schedule-item i {
+    font-size: 24px;
+  }
+}
+
+/* ¿Quiénes Pueden Asistir Al BDI? CSS for Surface Pro 7, Surface Duo, Galaxy Fold */
+@media (max-width: 1024px) {
+  /* Adjust styles for these devices */
+}
+
+/* ¿Quiénes Pueden Asistir Al BDI? CSS for Samsung Galaxy A51/71 */
+@media (max-width: 720px) {
+  /* Adjust styles for Samsung Galaxy A51/71 */
+}
+
+/* ¿Quiénes Pueden Asistir Al BDI? CSS for Nest Hub and Nest Hub Max */
+@media (max-width: 1280px) {
+  /* Adjust styles for Nest Hub and Nest Hub Max */
 }
