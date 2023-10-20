@@ -342,10 +342,10 @@ h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
-  display: flex; /* Agregar display flex para alinear horizontalmente los elementos. */
-  justify-content: space-between; /* Para espaciar los elementos a los lados. */
-  align-items: center; /* Para alinear verticalmente los elementos. */
-  background-color: #333; /* Cambiar el color de fondo del encabezado si es necesario. */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
 }
 
 #header #logo h1 {
@@ -373,64 +373,136 @@ h6 {
 }
 
 #header #logo:last-child {
-  margin-left: auto; /* Aplicar margen izquierdo automático al último logotipo. */
+  margin-left: auto;
 }
 
+/* Media Query para pantallas más pequeñas (hasta 992px) */
 @media (max-width: 992px) {
-  #header #logo img {
-    max-height: 30px; /* Reducir el tamaño de la imagen del logo en pantallas más pequeñas. */
-  }
-  #header {
-    height: 60px; /* Reducir la altura del encabezado en pantallas más pequeñas si es necesario. */
-  }
-  #header #logo h1 {
-    font-size: 24px; /* Reducir el tamaño del texto en el logo en pantallas más pequeñas. */
-  }
-}
-
-/* CSS for iPhone SE */
-@media (max-width: 320px) {
   #header {
     height: 60px;
+    max-width: 100%;
   }
 
   #header #logo h1 {
-    font-size: 20px;
+    font-size: 24px;
+    max-width: 100%;
+  }
+
+  #header #logo img {
+    max-height: 30px;
+    max-width: 100%; /* Ajusta la imagen del logotipo para que sea responsive */
+  }
+}
+
+/* CSS para iPhone SE (320px) */
+@media (max-width: 320px) {
+  #header {
+    height: 40px;
+    max-width: 100%;
+  }
+
+  #header #logo h1 {
+    font-size: 16px;
+    max-width: 100%;
   }
 
   #header #logo img {
     max-height: 20px;
+    max-width: 100%;
   }
 }
 
-/* CSS for iPhone XR, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+ */
+/* CSS para dispositivos aún más pequeños (por ejemplo, 240px) */
+@media (max-width: 240px) {
+  #header {
+    height: 30px;
+    max-width: 100%;
+  }
+
+  #header #logo h1 {
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  #header #logo img {
+    max-height: 15px;
+    max-width: 100%;
+  }
+}
+
+/* CSS para dispositivos de pantalla pequeña (414px) */
 @media (max-width: 414px) {
-  /* Adjust styles for these devices */
+  #header {
+    height: 50px; /* Ajusta la altura para pantallas de 414px de ancho */
+  }
+
+  #header #logo h1 {
+    font-size: 22px; /* Ajusta el tamaño del texto para pantallas de 414px de ancho */
+  }
+
+  #header #logo img {
+    max-height: 35px; /* Ajusta el tamaño del logo para pantallas de 414px de ancho */
+  }
 }
 
-/* CSS for Samsung Galaxy S20 Ultra */
-@media (max-width: 1440px) {
-  /* Adjust styles for Samsung Galaxy S20 Ultra */
-}
-
-/* CSS for iPad Air and iPad Mini */
+/* CSS para dispositivos de pantalla mediana (768px) */
 @media (max-width: 768px) {
-  /* Adjust styles for iPad Air and iPad Mini */
+  #header {
+    height: 70px; /* Ajusta la altura para pantallas de 768px de ancho */
+  }
+
+  #header #logo h1 {
+    font-size: 28px; /* Ajusta el tamaño del texto para pantallas de 768px de ancho */
+  }
+
+  #header #logo img {
+    max-height: 50px; /* Ajusta el tamaño del logo para pantallas de 768px de ancho */
+  }
 }
 
-/* CSS for Surface Pro 7, Surface Duo, Galaxy Fold */
+/* CSS para dispositivos de pantalla grande (1024px) */
 @media (max-width: 1024px) {
-  /* Adjust styles for these devices */
+  #header {
+    height: 80px; /* Ajusta la altura para pantallas de 1024px de ancho */
+  }
+
+  #header #logo h1 {
+    font-size: 32px; /* Ajusta el tamaño del texto para pantallas de 1024px de ancho */
+  }
+
+  #header #logo img {
+    max-height: 70px; /* Ajusta el tamaño del logo para pantallas de 1024px de ancho */
+  }
 }
 
-/* CSS for Samsung Galaxy A51/71 */
-@media (max-width: 720px) {
-  /* Adjust styles for Samsung Galaxy A51/71 */
+/* CSS para dispositivos de pantalla extra grande (1440px) */
+@media (max-width: 1440px) {
+  #header {
+    height: 90px; /* Ajusta la altura para pantallas de 1440px de ancho */
+  }
+
+  #header #logo h1 {
+    font-size: 36px; /* Ajusta el tamaño del texto para pantallas de 1440px de ancho */
+  }
+
+  #header #logo img {
+    max-height: 90px; /* Ajusta el tamaño del logo para pantallas de 1440px de ancho */
+  }
 }
 
-/* CSS for Nest Hub and Nest Hub Max */
-@media (max-width: 1280px) {
-  /* Adjust styles for Nest Hub and Nest Hub Max */
+/* CSS para dispositivos de pantalla aún más grandes (1920px) */
+@media (max-width: 1920px) {
+  #header {
+    height: 100px; /* Ajusta la altura para pantallas de 1920px de ancho */
+  }
+
+  #header #logo h1 {
+    font-size: 40px; /* Ajusta el tamaño del texto para pantallas de 1920px de ancho */
+  }
+
+  #header #logo img {
+    max-height: 110px; /* Ajusta el tamaño del logo para pantallas de 1920px de ancho */
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1861,13 +1933,13 @@ h6 {
 #footer .footer-top .footer-newsletter input[type=email] {
   border: 0;
   padding: 6px 8px;
-  width: 65%;
+  width: 60%;
 }
 
 #footer .footer-top .footer-newsletter input[type=submit] {
   background: #f82249;
   border: 0;
-  width: 35%;
+  width: 40%;
   padding: 6px 0;
   text-align: center;
   color: #fff;
@@ -1890,18 +1962,29 @@ h6 {
   color: #ddd;
 }
 
-/* Footer CSS for iPhone SE */
+/* Footer CSS for iPhone SE (320px) */
 @media (max-width: 320px) {
-  #footer .footer-top .footer-info h3 {
+  #footer .footer-top .footer-info * {
+    /* Aplica a todos los elementos dentro de footer-info */
     font-size: 20px;
-  }
-
-  #footer .footer-top .footer-info img {
-    height: 80px;
+    max-width: 100%;
+    height: auto;
   }
 
   #footer .footer-top .footer-info p {
-    font-size: 12px;
+    font-size: 12px; /* Ajusta el tamaño de fuente de los párrafos dentro de footer-info */
+  }
+
+  #footer .footer-top .footer-links ul i {
+    font-size: 16px; /* Ajusta el tamaño de fuente de los elementos de lista dentro de footer-info */
+  }
+
+  #footer .footer-top .footer-links ul li {
+    padding: 8px 0; /* Ajusta el espaciado de los elementos de lista dentro de footer-info */
+  }
+
+  #footer .footer-top .footer-contact p {
+    font-size: 12px; /* Ajusta el tamaño de fuente de los párrafos de contacto dentro de footer-info */
   }
 
   #footer .footer-top .social-links a {
@@ -1916,31 +1999,19 @@ h6 {
   #footer .footer-top h4 {
     font-size: 12px;
   }
-
-  #footer .footer-top .footer-links ul i {
-    font-size: 16px;
-  }
-
-  #footer .footer-top .footer-links ul li {
-    padding: 8px 0;
-  }
-
-  #footer .footer-top .footer-contact p {
-    font-size: 12px;
-  }
 }
 
-/* Footer CSS for iPhone XR, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+ */
+/* Footer CSS for iPhone XR, iPhone 12 Pro, Pixel 5, Samsung Galaxy S8+ (414px) */
 @media (max-width: 414px) {
-  /* Adjust styles for these devices */
+  /* Ajusta los estilos para estos dispositivos */
 }
 
-/* Footer CSS for Samsung Galaxy S20 Ultra */
+/* Footer CSS for Samsung Galaxy S20 Ultra (1440px) */
 @media (max-width: 1440px) {
-  /* Adjust styles for Samsung Galaxy S20 Ultra */
+  /* Ajusta los estilos para Samsung Galaxy S20 Ultra */
 }
 
-/* Footer CSS for iPad Air and iPad Mini */
+/* Footer CSS for iPad Air and iPad Mini (768px) */
 @media (max-width: 768px) {
   #footer .footer-top .footer-info h3 {
     font-size: 20px;
@@ -1980,32 +2051,19 @@ h6 {
   }
 }
 
-/* Footer CSS for Surface Pro 7, Surface Duo, Galaxy Fold */
+/* Footer CSS for Surface Pro 7, Surface Duo, Galaxy Fold (1024px) */
 @media (max-width: 1024px) {
-  /* Adjust styles for these devices */
+  /* Ajusta los estilos para estos dispositivos */
 }
 
-/* Footer CSS for Samsung Galaxy A51/71 */
+/* Footer CSS for Samsung Galaxy A51/71 (720px) */
 @media (max-width: 720px) {
-  /* Adjust styles for Samsung Galaxy A51/71 */
+  /* Ajusta los estilos para Samsung Galaxy A51/71 */
 }
 
-/* Footer CSS for Nest Hub and Nest Hub Max */
+/* Footer CSS for Nest Hub and Nest Hub Max (1280px) */
 @media (max-width: 1280px) {
-  /* Adjust styles for Nest Hub and Nest Hub Max */
-}
-
-/* General CSS for all devices */
-#footer .footer-top .footer-newsletter input[type=email] {
-  width: 60%;
-}
-
-#footer .footer-top .footer-newsletter input[type=submit] {
-  width: 40%;
-}
-
-#footer .footer-top .footer-newsletter input[type=submit]:hover {
-  background: #e0072f;
+  /* Ajusta los estilos para Nest Hub y Nest Hub Max */
 }
 
 /*--------------------------------------------------------------
