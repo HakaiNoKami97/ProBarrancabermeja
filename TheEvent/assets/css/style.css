@@ -380,7 +380,7 @@ h6 {
 @media (max-width: 992px) {
   #header {
     height: 60px;
-    max-width: 100%;
+    max-width: 100%
   }
 
   #header #logo h1 {
@@ -1970,7 +1970,7 @@ h6 {
     max-width: 100%;
     height: auto;
   }
-
+  
   #footer .footer-top .footer-info p {
     font-size: 12px; /* Ajusta el tamaño de fuente de los párrafos dentro de footer-info */
   }
@@ -2013,6 +2013,11 @@ h6 {
 
 /* Footer CSS for iPad Air and iPad Mini (768px) */
 @media (max-width: 768px) {
+  .minimizarimg {
+    max-width: 100%;
+    height: auto;
+  }
+
   #footer .footer-top .footer-info h3 {
     font-size: 20px;
   }
